@@ -1,0 +1,94 @@
+#+TITLE: Proper philosophy
+#+SUBTITLE: To see things as they are.
+#+AUTHOR: <lngnmn2@yahoo.com>
+#+STARTUP: indent fold overview
+
+* Table Of Contents :TOC:
+- [[#overview][Overview]]
+- [[#the-law-of-karma-the-causality-principle][The law of Karma (the Causality principle)]]
+- [[#the-buddha][The Buddha]]
+  - [[#the-principle-of-dependent-origination][The principle of dependent origination]]
+  - [[#everything-is-compound][Everything is "compound"]]
+  - [[#nothing-is-permanent][Nothing is permanent]]
+  - [[#non-self-no-atman-only-brahman][Non-Self (no Atman, only Brahman)]]
+  - [[#everything-is-suffering][Everything is suffering]]
+- [[#contradictions-do-not-exist][Contradictions do not exist]]
+- [[#not-everything-is-possible][Not everything is possible]]
+- [[#everything-is-fully-deterministic][Everything is fully-deterministic]]
+- [[#stochastic-and-randomness][Stochastic and randomness]]
+- [[#mental-shortcuts][Mental shortcuts]]
+
+* Overview
+/"To see things as they [really] are"/ is the summary of /any/ proper philosophy, including the Upanishadic "philosophy of the mind".
+
+Seeing what isn't "out there" (and especially ignoring /What Is/) is an inevitable cause of suffering (having an inadequate "state" or conditions of the mind or body).
+
+We need the [only] proper philosophy to apply /statistical and scientific methods/ properly.
+
+* The law of Karma (the Causality principle)
+People captured this principle in many forms (looking at /the same mountain/ from different points of view and angles).
+- /The Universal aw of Karma/
+- /Dependent Origination/ (of the Buddha)
+- even The /Modus Ponens/
+
+* The Buddha
+** The principle of dependent origination
+#+BEGIN_QUOTE
+    When this is, that is.
+    From the arising of this comes the arising of that.
+    When this isn't, that isn't.
+    From the cessation of this comes the cessation of that.
+#+END_QUOTE
+** Everything is "compound"
+This is principle of the Buddha is often overlooked. The modern formulation would be /"everything is a process"/ -- this is so profound.
+** Nothing is permanent
+Whatever came together will [eventually] fall apart -- the property of anything "compound".
+** Non-Self (no Atman, only Brahman)
+We are /That/, but not /this/ (imaginary) That -- that (actual) /That/.
+** Everything is suffering
+This is just a direct consequence of the principles above.
+
+* Contradictions do not exist
+This is, by far, the second most important principle.
+
+According to the [unfolding] nature of the Universe, contradictions do not exist (they never arise, in principle -- everything is caused by the prior states of the same Universe).
+
+When you face a contradiction -- check your premises, at least one of them /will/ be wrong.
+
+This is what they call a "reality check".
+
+* Not everything is possible
+"Everything is possible" is just another meme of the liberal arts "education".
+
+This is related to a "pure probabilistic" view of reality, which is another cathedral of unnecessary and redundant abstractions.
+
+Possibilities are /scooped/ (literally) by the prior states of the universe in a particular locality.
+
+Once a river began to develop its canyon, it won't flow in any other direction (because a canyon is a [second order] process of its own -- it is a drainage for the whole region).
+
+Once a tree starts to develop a branch, it will be there, and other sub-branches may arise from it, and so on.
+
+* Everything is fully-deterministic
+But not /pre-determined/. It simply can't be.
+
+The "causes" are unfolding (developing) "in parallel" at many levels -- so-called /micro-/ and /macro-/ levels, and not even "out there" /yet/.
+
+The new ones rise, the old ones diminish or even cease, leave or enter this particular /locality/.
+
+A drunken driver is still drinking, or even working out his way to get drunk.
+
+* Stochastic and randomness
+"Stochastic" just means that the actual underlying causality (for a process) is too complicated, too subtle or too fleeting to grasp (to properly capture).
+
+The causes of every raining (in every particular locality) are of the same nature, but always of different (never exactly the same) /magnitudes/.
+
+It does not mean that things are "random". The notion of "randomness" is an abstract mathematical concept and does not exist anywhere else.
+
+"Possibilities" are /bound by What Is/ (in more than one way).
+
+* Mental shortcuts
+When an observed phenomena is too complex to grasp, the mind tends to develop and use so-called "mental shortcuts" or "naive heuristics", which are "all wrong (inaccurate) but occasionally useful".
+
+Notice that this /is not/ /"A Map Is Not The Territory"/ principle. A correct map -- the one which corresponds to (or partially captures) /What Is/ -- is always useful, however "primitive".
+
+Mental shortcuts can be arbitrary delusional. This is how memes come to be.

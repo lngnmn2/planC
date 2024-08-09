@@ -1,0 +1,53 @@
+#+TITLE: Stats
+#+AUTHOR: <lngnmn2@yahoo.com>
+#+STARTUP: indent fold overview
+
+* Table Of Contents :TOC:
+- [[#overview][Overview]]
+- [[#processes][Processes]]
+  - [[#fully-observable][Fully-observable]]
+  - [[#partially-obervable][Partially obervable]]
+- [[#probability][Probability]]
+- [[#bayesian-statistics][Bayesian statistics]]
+
+* Overview
+When we have no other knowledge (abount observed processes) we just /accumulate information "so far"/ -- /observe/ (measure) and /count/ (accumulate).
+
+Time is an abstract "scale" superimposed by the mind of an external observer upon an observed phenomena (processes).
+
+Just like any other "scale", this is a "bunch of notches" with the same (but arbitrary choosen) /distance/ between each of them. The sameness and arbitrariness is the key.
+
+The Cartesian coordinate system is a generalization of this universal principle (of a scale superimposion).
+
+Observations of measumements made after regular (or irregular) time-intervals yields a "series" of "sights" or "readings".
+
+Recording such "readings" as data /values/ in observed order produce a so-called "time series" (of values).
+
+The crucial rule is that all the values have to be by the same "instrument" (observer) or a simililarly calebrated one, so the data values will not capture nonsense (/What Isnt/ or Wasnt).
+
+The all time-intervals (between measurements or observations) has to be /regular/ (exactly the same) so /trends/ within the changes can be /properly captured/.
+
+Switching to a /discrete/ (regular) time by taking a frequent "snapshots", instead of maintaining /continuous/ variables was the principle behind the "digital revolution" and discrete time signal processing (discretization) which underly it.
+
+Digitalized music is just series of "high-frequency snapshots" of the actual sound waves.
+* Processes
+Everything is a process, but not all the process are of the same kind.
+
+** Fully-observable
+Abstract processes, for which we (think we) "know" all the factors of causality.
+
+Most of the rule-based games humans has been invented are such "abstract processes".
+** Partially obervable
+What we call "random" is actually just "very complicated". There is no such thing as randomness, aside from an /ill-defined/ pure mathematical concept. Everything has its causes, however subtle and "emergent".
+
+THe causality "unfolds" as the Universe itself unfolds (at all levels, starting from emmited light waves). These are the same phenomena.
+
+Almost everything is /partially observable/ for us (as observers).
+
+* Probability
+/How likely/ on an abstract scale from 0 to 1. The value is also an abstract /weight/.
+
+* Bayesian statistics
+When we have no other knowledge we just /accumulate information "so far"/ -- /observe/ (measure) and /count/ (accumulate).
+
+Bayesian stats calculate (accumulate) /probabilities/.
