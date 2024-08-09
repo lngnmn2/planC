@@ -1,0 +1,46 @@
+#+TITLE: the Tools
+#+AUTHOR: <lngnmn2@yahoo.com>
+#+STARTUP: indent fold overview
+
+* Table Of Contents :TOC:
+- [[#emacs][Emacs]]
+  - [[#org-mode][org-mode]]
+  - [[#org-roam2][org-roam2]]
+- [[#neovim][neovim]]
+- [[#programming-languages][Programming Languages]]
+  - [[#rapid-prototyping][Rapid prototyping]]
+  - [[#implementation][Implementation]]
+- [[#the-classic-languages][the Classic languages]]
+  - [[#common-lisp][Common Lisp]]
+  - [[#ocaml][Ocaml]]
+
+* Emacs
+We use /GNU Emacs/ for everything, ideally, never leaving it.
+** org-mode
+All the /source documents/ are in the /most general/ ~org-mode~ format, to be exported (and then refined) into more /specific/ formats, such as /markdown/ or /LaTeX/.
+
+All the formats have to support the mathematical notation of LaTeX.
+** org-roam2
+The "knowledge base" is in the ~org-roam2~ format (a whole directory).
+
+This has to be a set of inter-linked "cards" (individual files) for every relevant /topic/ or a /concept/.
+* neovim
+This is still a /small miracle/ of software engineering. We use it for quick /in-place/ (within a terminal) edits, along with all the language-server tooling.
+* Programming Languages
+We are /polyglots/ (how else could this be?)
+** Rapid prototyping
+*** Clojure
+Bottom-up, layered DLSs programming on immutable data done "just right".
+** Implementation
+*** Rust
+- Traits (a-la type-classes)
+- extension methods
+*** Scala 3
+- traits (composition)
+- implicits
+- extension methods
+* the Classic languages
+** Common Lisp
+Exploratory programming, bottom-up DSL prototyping
+** Ocaml
+Clear, non-leaking abstractions (proper, well-defined ADTs)
