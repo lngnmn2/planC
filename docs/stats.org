@@ -4,9 +4,13 @@
 
 * Table Of Contents :TOC:
 - [[#overview][Overview]]
+  - [[#describtive-stats][Describtive stats]]
+  - [[#immutability][Immutability]]
 - [[#processes][Processes]]
   - [[#fully-observable][Fully-observable]]
   - [[#partially-obervable][Partially obervable]]
+- [[#models][Models]]
+- [[#lack-of-precision-not-of-correctness][lack of precision, not of correctness]]
 - [[#probability][Probability]]
 - [[#bayesian-statistics][Bayesian statistics]]
 
@@ -30,19 +34,49 @@ The all time-intervals (between measurements or observations) has to be /regular
 Switching to a /discrete/ (regular) time by taking a frequent "snapshots", instead of maintaining /continuous/ variables was the principle behind the "digital revolution" and discrete time signal processing (discretization) which underly it.
 
 Digitalized music is just series of "high-frequency snapshots" of the actual sound waves.
+
+** Describtive stats
+Once there are /more than one/ measurement (a list or an /ordered sequence/ of values, even of a size ~1~ in the trivial case) the /min/, /max/ and /mean/ values can be determined.
+
+They /describe/ (characterize) the whole series (of records), setting the /bounds/ and establishing an /average/ value. There are other common, even standardized /metrics/ too.
+
+The key point is that the sequence will grow, so all the /derived/ values may change.
+
+** Immutability
+Another foundational principle is that a sequence is (must be) immutable -- no value can be removed or "over-written" (destructively updated).
+
+A proper discrete time-series is an /append-only/ (immutable) data strucure, with regular (always the same) time-intervals between records.
 * Processes
-Everything is a process, but not all the process are of the same kind.
+Everything is a process, but not all the process are of the same kind. On the contrary, there are wast variety of kinds of processes out there.
+
+Similar kinds of processes give rise to similar recurrent /patterns/, and this is how an observer could chracterize (or classify) them.
 
 ** Fully-observable
-Abstract processes, for which we (think we) "know" all the factors of causality.
+Abstract processes, for which we think we "know" all the relevant f factors of the underlying causality.
 
-Most of the rule-based games humans has been invented are such "abstract processes".
+Most of the rule-based games humans has been invented are such "abstract processes", and the causality (a set of possible legal moves) is determined (and limited) by a set of rules.
+
 ** Partially obervable
 What we call "random" is actually just "very complicated". There is no such thing as randomness, aside from an /ill-defined/ pure mathematical concept. Everything has its causes, however subtle and "emergent".
 
 THe causality "unfolds" as the Universe itself unfolds (at all levels, starting from emmited light waves). These are the same phenomena.
 
 Almost everything is /partially observable/ for us (as observers).
+* Models
+It is "totally wrong but ocassionally useful" to superimpose a over-simplified, idealized abstract mathematical upon wastly complex, partially observed and partially understood phenomena, to gain so-called "informed decisions".
+
+The "informed decisions" /mantra/ is what keeps the whole scam afloat.
+
+The principle (the universal law, if you will) is, however, that if not all the relevant aspects (factors) of the underlying causality has been properly captured (nothing actual is missing, nothing imaginary is added),
+the model *will be wrong*. Not even an "approximation" (another mantra) -- approximation /requires /correctness/, but /lacks precision/ -- just wrong.
+
+Therefore, /all the mathematical models of the markets based on the "rational agents" hypothesis are just (by definition, in principle!) wrong/.
+* lack of precision, not of correctness
+This is what distinguish a valid /approximation/, of which a valid but incomplete /map/ is an instance, from an abstract bullshit.
+
+In other words, a valid (correct) approximation properly captures all the relevant factors and discards everythig that isn't out there and ins't actually relevant.
+
+It lacks all the details (or /precision/), but as an abstraction, has been /properly captured/ (nothing missed, nothing added).
 
 * Probability
 /How likely/ on an abstract scale from 0 to 1. The value is also an abstract /weight/.
