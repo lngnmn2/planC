@@ -1,0 +1,25 @@
+#+TITLE: Charting and software
+#+AUTHOR: <lngnmn2@yahoo.com>
+#+STARTUP: indent fold overview
+
+* Table Of Contents :TOC:
+- [[#overview][Overview]]
+- [[#software][Software]]
+  - [[#what-to-implement][What to implement]]
+
+* Overview
+/Investopedia/, among other places, explains the intuitions and the math behind every known charting /indicator/.
+
+Each non-bullshit indicator is a /measuring instrument/ (which can be calibrated), which produces a series of "readings", which reflect a particular /relation/ among the "core" market data (the "candles" and volume).
+
+Additional sources of information (/Open Interest/, /Longs/ and /Shorts/, etc.) are useful but almost never actually available, except on ~Binance~.
+
+* Software
+We don't have to re-invent the wheel. The world's most advanced /free/ charting software tools (~Binance~ and ~Tradingview~) implement most of the charting techniques, tools and /indicators/.
+
+There are tens of thousands of /man-hours/ behind either ~Binance~ or ~TradingView~, and the quality of these tools are exceptional. Just use them for all "human" activities (exploration, comparisons, overviews, research).
+
+For our own tools we need to implement the bare minimum (with emphasis on correct math). *Less is more*.
+
+** What to implement
+We don't have to re-implement everything, but only the parts which we want to use with our /automation/ (or /recommendation/) tools.
