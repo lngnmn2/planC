@@ -118,3 +118,20 @@ People do what they /feel like doing/, not what is rational to do.
 This is why we have C++ and utter fucking abominations like /PHP, Java/ or /Javascript/ at the very top rows of statistical reports.
 
 * The "right understanding"
+Issuing some random imperative "commands" to a computer (close to a machine level) is NOT the right way to program (that /Forrest Gump/ sergeant scene!).
+
+Imperative programming is for sergeants, indeed.
+
+At a "math department" we want to program by doing [applied] mathematics, with sets, relations, algebraic types and, of course, functions.
+
+Everything has to be a value of some type (including functions), syntactically, everything is an /expression/ (which evaluates to a value, including /self-evaluating/ "literals"), every /binding/ (both of a symbol or a data-binding) has to be /immutable/, and there is no "state" anywhere, just structured data ("in-a-wire" representation).
+
+Uniformity cannot be "invented", it is only being discorevered, /emerges/ when we do everything "just right".
+
+The best "mostly functional" languages, such as SML, Scheme, Ocaml or Clojure, had all these principles applied.
+
+Haskell is, technically, an executable system of logic (a /declarative/ system of notation, which is evaluated by "pure substitution").
+
+Ideally, we should to program in Haskell, Scala3 or Rust, depending on what the constraints (including the availability of layered, DSL-based libraries) are.
+
+But knowing (mastering) the underlying universal principles, one could program in /any/ language, except, perhaps, PHP and Javascript, due to basic hygiene reasons.
