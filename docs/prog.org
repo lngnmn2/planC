@@ -76,6 +76,19 @@ Sane /academic imperative languages/, such as /Ada/, tend to the original (verbo
 
 It is funny that /Ada/, being a "military language", is actually an /academic/ language (DARPA just paid for it), while stuff which sold to us as "profound" (C++, Java) has been created by literal incompetent and unqualified "cavaliermen".
 
+** Calling conventions
+Every machine supports "procedural programming paradigm" and has a built-in notion of a procedure.
+
+How exactly the parameters are passed (which registers are being used) is defined my a specification for a particular CPU architecture.
+
+What is allocated on the stack and what is allocated on the heap is defined by so-called /ABI/, which is defined by an OS implementers and the tradition.
+
+The world is running on so-called /C ABI/, but there is not so much due to /C/ in it. It is so happen that when objects were actually implemented (in C++ runtime), the address of the "self" has to be passed as a "0th parameter", and thus placed on the stack before all the actual argument values.
+
+Thus all the modern imperative languages "follow" the calling conventions from the past for compatibility (with an OS/CPU combo) reasons.
+
+Understanding the "memory model" (the stack, the heap and the procedure calling conventions) is still essential, to see the "whys" behind what Java, lets say, (or C++) do.
+
 ** C++
 ** Java
 ** Rust
