@@ -2,53 +2,68 @@
 #+AUTHOR: <lngnmn2@yahoo.com>
 #+STARTUP: indent fold overview
 
-Why am I writing this and keeping it inside a project? Because we have to be at the same level of understanding, so our communication will be meaningful.
+Just like /Arnold/ built his body, in vain, and /Tyson/ built his body and skills, also in vain, we are laboriously building our "less wrong" and presumably as accurate as possible "inner representations of /What Is/" within our brains. In vain, all the same.
 
-To actually have that "active recall" meme (hi, Cal), one has to develop his own proper (which actually corresponds to some aspects of /What Is/) /intuitive/ (in principle, without all the details) understanding of how things are Out There and /why/.
+This is just the same kind of a biological process based on systematic repetition and the resulting /temporary/ transformations of the relevant cell clusters, only to disintegrate later, in accordance with the Buddha's teaching.
 
-One more time -- you don't have to memorize all the mostly irrelevant details (and be very proud of it as most of C++ or Java /coders/ do), but have to learn /the underlying principles/, which explains out the /whys/, along with proper generalizations and common reccuring patterns ("standard idioms") which underly /all/ languages.
+This does not mean, however, that we (and they) should have done it.
 
-This, by the way, is how one actually understands mathematics -- by tracing all the properly captured and /properly generalized/ mathematical abstractions to the particular aspects of underlying reality, from which they have been captured.
+* Why?
+Why am I writing this and keeping it inside a project? Because we have to be at the same level of understanding, so our communication will be clear and meaningful.
 
-The same universal (to the Mind of an external observer) principle is required for any proper understanding, including CS and programming.
+To actually have that /"active recall"/ meme (hi, Cal), one has to develop his own proper (which actually corresponds to some aspects of /What Is/) /intuitive/ (in principle, without all the minute details) understanding of how things are /Out There/ and /why/.
+
+One more time -- you don't have to memorize all the mostly irrelevant details (and be very proud of yourself, just like most of C++ or Java /coders/ are), but have to learn /the underlying principles/, which explains out the /whys/, along with proper generalizations and common reccuring patterns ("standard idioms") which underlay /all/ programming languages.
+
+This, by the way, is how one deeply and truly understands mathematics -- by tracing all the properly captured and /properly generalized/ mathematical abstractions back to the particular aspects of underlying reality, from which they have been captured.
+
+The same universal (to the Mind of an external observer) principle is required for any proper understanding, including CS and programming. This is how the Buddha himself abstained his realizations -- reducing everything back to /What Is/.
 
 * How to program?
 Well, you /learn things as they [really] are/ and then /just do the right thing/. These "laws" are as old as the Buddha.
 
+The problem is, as usual, that the reality has been completely (and many times) distorted by a mountains, literally whole Himalayas, of meaningless verbiage, written and spoken.
+
+Every single degen nowadays is either an AI researcher or a "software developer", and every single one writes some crappy pop-sci books for low IQ audiences (hi, Cal, again).
+
+Books are broken beyond repair. We won't have more Steppenwolves or Zen and Arts.
+
 * Social aspects
-Just like it is with all other social movements (abstract social constructs, mass-hysterias) most of thing you see and hear are /bullshit/.
+Just like it is with all other social movements (abstract social constructs, mass-hysterias and organized religions) most of things you see and hear is an utter /bullshit/.
 
-Young autistic people usually hit this wall very early -- /all these people cannot me wrong, so may be it is me who is wrong/ -- and damage their self-esteem for nothing.
+Young autistic people usually hit this wall very early -- /"all these people cannot be wrong, so may be it is me who is wrong"/ -- and damage their own self-esteem for nothing.
 
-Yes, all these people are wrong. We have seen this /literally every time/.
+Yes, all these people are wrong most of the time. We have seen this /literally everywhere/.
 
-Every single stroke of a brush, every single color, every stone within Egyptian temples and pyramids were "absolutely proper and infallible". They did everything according to the social norms and the social consensus.
+Every single stroke of a brush, every single color, every stone within Egyptian temples and pyramids were "due according to absolutely proper and infallible reasons". They did everything according to the current social norms and the current social consensus.
+
 Guess what? It is all bullshit (well, just nice traditional /art forms/).
 
 Do you thing "programming" is different? Why would it be?
 
 * Imperative crap
-There are two kinds of programmers -- with background in mathematics, and mathematically ignorant. The former gave us /LISP/ and /ML/ traditions (with the /CLU/ and /Scheme/ "sects"), while the later sold us their imperative crap (think of an /army training grounds/ versus /a math department/).
+There are two kinds of programmers -- with background in mathematics, and mathematically ignorant. The former gave us the whole /LISP/ and /ML/ traditions (with the /CLU, Emacs/ and /Scheme/ "sects"), while the later sold us their imperative crap (think of an /army training grounds/ versus /a math department/).
 
-Before programming has been established as a "learn by doing" (one has to actually practice it, not just watch and read) and "just do it [yourself]" discipline, /theoreticians/ gave us /ALGOL/ for /imperative, procedural (structured)/ programming.
+Before programming has been established as a "learn by doing" (one has to actually /practice it/, like boxing, not just watch or read) and "just do it [yourself]" discipline, /theoreticians/ gave us /ALGOL/ for an /imperative, procedural (structured)/ programming.
 
-The goal was sound and noble -- to develop a general purpose /higher-level/ (higher than and more general that a particular machine architecture) programming language.
+The goal was sound and noble -- to develop a general purpose /higher-level/ (higher than and more general that a particular machine architecture) programming language (to express algorithms).
 
-The only problem was that this family of languages has no implementations used by anyone.
+The only problem was that this family of languages has no working implementations used by anyone.
 
-Another ultimate /virus/ (which seemingly infected /both/ Stroustrup and Gosling) was /SIMULA-68/ -- another language based on an idiotic "Platonist's" view of the world, where everything is an hierarchy, just like it is in an army). Instead of Smalltalk and CLOS (which did everything "just right").
+Another ultimate /virus/ (which seemingly infected /both/ Stroustrup and Gosling) was /SIMULA-68/ -- another language based on an idiotic "Platonist's" view of the world, where everything is an hierarchy of "objects", just like it is in an army), ignoring /Smalltalk/ and /CLOS/ (which did everything "just right").
 
-When you see or hear the word "simulation", being used watch out for a liberal arts "education" memes.
+When you see or hear the word "simulation" being used, watch out for a liberal arts "education" memes and general stupidity. Simulations have exactly the same relations with reality as cartoons or stories, (even more distant, being at a completely different level from /What Is/.
+
 * Understanding the "whys"
-We used to program particular machines (architectures) in a "machine language", using form of /human-readable/ syntax called an "assembly language").
+We used to program particular machines (architectures) in a corresponding "machine language", using a form of /human-readable/ syntax called an "assembly language".
 
-We have to understand the machine CPU and memory architecture before we can write a program.
+We have to understand the machine (CPU and memory) architecture before we can write a program.
 
-The CPU register, their sizes, the "stack", the memory "layout" and access.
+The CPU registers, their sizes, the "stack", the memory "layout" (visible to a program) and the memory access (alignment, etc).
 
-From these early days till now we still have the notions of a "machine word", lets say, (the width of a "pointer" (an address) and /therefore/ of a value on the "stack", which has to be able to store addresses).
+From these early days up till now we still have the notions of a "machine word", lets say, (the width of a "pointer" (an address) and /therefore/ of a value on the "stack", which has to be able wide-enough to store "absolute" addresses).
 
-The fundamental (for a machine) notions of "call by value" (a copy) and "call by reference (an address) are still out there.
+The fundamental (for a machine) notions of "call by value" (creating a copy) and "call by reference (an copying an address of the value) are still out there.
 
 The traditional memory "layout" of /the code segment, the data segment, heap and stack/ is still around. Modern OSes just "emulate" it.
 
@@ -77,19 +92,20 @@ The later standards partially enforced  the "declare before use" principle.
 
 And this was basically it. No notion of proper /Algebraic Types/, no proper support for /higher-order functions/, crappy /enums/, no proper macros (just "primitive" pre-processor directives), no generics -- just a "higher-level language -- some /proper generalizations/ over an assembly languages".
 
-Notice that /back then/ there were noting like multi-byte encodings, "threads", even of a "shared state" (shared libraries has been developed much later). There were no notion of "multitasking".
+Notice that /back then/ there were noting like multi-byte encodings, "threads", even of a "shared state" (shared libraries has been developed much later). There were no notion of "multi-processor multitasking".
 
-The means of encapsulation of the state was a "process" (a whole statically-linked and properly isolated binary).
+The means of encapsulation of the state was a "process" (a whole statically-linked and properly isolated binary being partially loaded into memory).
+
 ** The C-like syntax
 All the crappy "cavalierman" imperative languages share some form of a C-like syntax -- C++, Java, and fucking Javascript.
 
 Sane /academic imperative languages/, such as /Ada/, tend to the original (verbose and detailed) ALGOL syntax. The designers of /Ada/ even made this into a proper principle -- no syntactic ambiguity is allowed (with a clear distinction between /statements/ and /expressions/), at the cost of some additional verbosity.
 
-It is funny that /Ada/, being a "military language", is actually an /academic/ language (DARPA just paid for it), while stuff which sold to us as "profound" (C++, Java) has been created by literal incompetent and unqualified "cavaliermen".
+It is funny that /Ada/, being a "military language", is actually an /academic/ language (DOD and DARPA just paid for it), while stuff which has been sold to us as "profound" (C++, Java) has been created by literal incompetent and unqualified "cavaliermen".
 
-Yes, the "familiarity" and "the feel of it" is what sells, but there are other considerations and evolved (discovered) patterns. The fact that /Python/ is eating the world is the proof (by example) that a clean and highly polished syntax maters /a lot/.
+Yes, the "familiar constructs" and "the feel of it" is what sells, but there are other considerations and evolved (discovered) patterns. The fact that /Python/ is eating out the world is the proof (by example) that a clean and highly polished syntax maters /a lot/.
 
-People who publicly issue statements like "the syntax does not matter" are plain incompetent idiots. Java would be *way less hated by smart people* if the designers would give some considerations to the syntax.
+People who publicly issue statements like "the syntax does not matter" are plain incompetent idiots. Java would be *way less hated by smart people* if its designers would give some considerations to the syntax.
 
 Modern C++ is righteously hated partially due to an inconsistent and incomprehensible syntactic vomit - a sign of a low-effort crap (adding shit later in a rush).
 
