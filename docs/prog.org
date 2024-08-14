@@ -36,6 +36,9 @@ The goal was sound and noble -- to develop a general purpose /higher-level/ (hig
 
 The only problem was that this family of languages has no implementations used by anyone.
 
+Another ultimate /virus/ (which seemingly infected /both/ Stroustrup and Gosling) was /SIMULA-68/ -- another language based on an idiotic "Platonist's" view of the world, where everything is an hierarchy, just like it is in an army). Instead of Smalltalk and CLOS (which did everything "just right").
+
+When you see or hear the word "simulation", being used watch out for a liberal arts "education" memes.
 * Understanding the "whys"
 We used to program particular machines (architectures) in a "machine language", using form of /human-readable/ syntax called an "assembly language").
 
@@ -99,6 +102,11 @@ Understanding the "memory model" (the stack, the heap and the procedure calling 
 
 ** C++
 ** Java
+I would not call names on James Gosling, but we have to admit that he was /ignorant/ of every single development in the LISP, ML and Functional programming traditions, and ignored and perhaps even fired /the/ Guy Steele -- an expert in programming language syntax and semantics -- so now we have to say everything two times ("get the papers, get the papers").
+
+It was well-understood back in /the late 80s and the early 90s/ that strong typing is /"the must"/ and that the most of the types can be systematically and soundly /inferred/, /at least on the other side of an assignment/ statement.
+
+We have to admit that the two fundamental ideas -- to eliminate the "naked pointers" (and to /implicitly use references/), and to compile to an intermediate bytecode, which, in turn, can be easily mapped to almost any CPU instruction set (a machine architecture) -- were great. He is definitely a very good /engineer/ and a mediocre and /unqualified/  programming language designer.
 ** Rust
 Rust did /a lot/ of the fundamental things (for an imperative language) just right.
 
