@@ -1,0 +1,99 @@
+#+TITLE: How to program
+#+AUTHOR: <lngnmn2@yahoo.com>
+#+STARTUP: indent fold overview
+
+Why am I writing this and keeping it inside a project? Because we have to be at the same level of understanding, so our communication will be meaningful.
+
+* How to program?
+Well, you /learn things as they [really] are/ and then /just do the right thing/. These "laws" are as old as the Buddha.
+
+* Social aspects
+Just like it is with all other social movements (abstract social constructs, mass-hysterias) most of thing you see and hear are /bullshit/.
+
+Young autistic people usually hit this wall very early -- /all these people cannot me wrong, so may be it is me who is wrong/ -- and damage their self-esteem for nothing.
+
+Yes, all these people are wrong. We have seen this /literally every time/.
+
+Every single stroke of a brush, every single color, every stone within Egyptian temples and pyramids were "absolutely proper and infallible". They did everything according to the social norms and the social consensus.
+Guess what? It is all bullshit (well, just nice traditional /art forms/).
+
+Do you thing "programming" is different? Why would it be?
+
+* Imperative crap
+There are two kinds of programmers -- with background in mathematics, and mathematically ignorant. The former gave us /LISP/ and /ML/ traditions (with the /CLU/ and /Scheme/ "sects"), while the later sold us their imperative crap (think of an /army training grounds/ versus /a math department/).
+
+Before programming has been established as a "learn by doing" (one has to actually practice it, not just watch and read) and "just do it [yourself]" discipline, /theoreticians/ gave us /ALGOL/ for /imperative, procedural (structured)/ programming.
+
+The goal was sound and noble -- to develop a general purpose /higher-level/ (higher than and more general that a particular machine architecture) programming language.
+
+The only problem was that this family of languages has no implementations used by anyone.
+
+* Understanding the "whys"
+We used to program particular machines (architectures) in a "machine language", using form of /human-readable/ syntax called an "assembly language").
+
+We have to understand the machine CPU and memory architecture before we can write a program.
+
+The CPU register, their sizes, the "stack", the memory "layout" and access.
+
+From these early days till now we still have the notions of a "machine word", lets say, (the width of a "pointer" (an address) and /therefore/ of a value on the "stack", which has to be able to store addresses).
+
+The fundamental (for a machine) notions of "call by value" (a copy) and "call by reference (an address) are still out there.
+
+The traditional memory "layout" of /the code segment, the data segment, heap and stack/ is still around. Modern OSes just "emulate" it.
+
+Understanding "what is" and "why it is the way it is" is /the proper understanding/, from which everything follows.
+
+** Machines languages
+A CPU is an /interpreter/ (an instance of a /Universal Machine/) for a particular "instruction set", implemented in a hardware.
+
+Generally, each instruction has its particular /numeric code/, and an associated human readable (mnemonic or textual) form.
+
+The programmers of the past just wrote sequences of "commands" to a CPU, using machine instructions that the particular CPU "understands" (is able to interpret).
+
+All the hardware details (of widths, number representations, encodings) has to be learned beforehand.
+** C
+/C/ was a struck of a genius -- it is a thin layer of seemingly proper abstractions (ADTs) on top of [potentially] /any/ machine architecture, so thin that we could literally /see through it/ the workings of a machine. /This/ is why /C/ was a "revelation" at the time.
+
+There is, however, some crucial things to understand.
+
+The types were not /mathematical sets (which corresponds to abstract number systems)/ but subsets "bounded" by hardware, just like it is within hardware itself.
+
+The general notion of an /ordered sequence/ (terminated by a distinct /stop-marker/) has been borrowed from genetics (and early LISPs).
+
+It was intentionally a "small language" (compared to PL/1) with a /lightweight syntax/, and just a few "chosen" syntactic forms.
+
+The later standards partially enforced  the "declare before use" principle.
+
+And this was basically it. No notion of proper /Algebraic Types/, no proper support for /higher-order functions/, crappy /enums/, no proper macros (just "primitive" pre-processor directives), no generics -- just a "higher-level language -- some /proper generalizations/ over an assembly languages".
+
+Notice that /back then/ there were noting like multi-byte encodings, "threads", even of a "shared state" (shared libraries has been developed much later). There were no notion of "multitasking".
+
+The means of encapsulation of the state was a "process" (a whole statically-linked and properly isolated binary).
+** The C-like syntax
+All the crappy "cavalierman" imperative languages share some form of a C-like syntax -- C++, Java, and fucking Javascript.
+
+Sane /academic imperative languages/, such as /Ada/, tend to the original (verbose and detailed) ALGOL syntax. The designers of /Ada/ even made this into a proper principle -- no syntactic ambiguity is allowed (with a clear distinction between /statements/ and /expressions/), at the cost of some additional verbosity.
+
+It is funny that /Ada/, being a "military language", is actually an /academic/ language (DARPA just paid for it), while stuff which sold to us as "profound" (C++, Java) has been created by literal incompetent and unqualified "cavaliermen".
+
+** C++
+** Java
+** Rust
+Rust did /a lot/ of the fundamental things (for an imperative language) just right.
+
+We could even call it a /"mostly imperative language"/ (my term), just like /Scheme/ or /Ocaml/ or /Scala3/ are, definitely, /mostly functional languages/.
+
+At even a higher level, composition of /traits/ (instead of rigid  "inheritance" hierarchies), extension methods, clear distinction between interfaces an implementations is an obvious "right thing" to do.
+
+Lifting the /lifetimes/ into the type-system and restricting and /formalizing/ the behavior of /references/ (at most one mutable reference at a time, which is an implicit property for /refs/ in functional languages) is Rust's distinct, unique innovation.
+
+* Psychological aspects
+Just like any other complex social systems (markets, lets say) everything is actually "driven by /psychology/" and human emotions (/neuro-modulators/), not "pure rationality", logic and reason.
+
+Just like the markets in actual reality are NOT /"efficient"/, the languages (and designs) which most people are using are not "rational", leave alone "optimal".
+
+People do what they /feel like doing/, not what is rational to do.
+
+This is why we have C++ and utter fucking abominations like /PHP, Java/ or /Javascript/ at the very top rows of statistical reports.
+
+* The "right understanding"
