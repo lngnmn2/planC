@@ -101,12 +101,24 @@ Thus all the modern imperative languages "follow" the calling conventions from t
 Understanding the "memory model" (the stack, the heap and the procedure calling conventions) is still essential, to see the "whys" behind what Java, lets say, (or C++) do.
 
 ** C++
+The "C with classes" (and structs with methods) was really nice and indeed a "++" to C.
+
+Then something went wrong. Novadays people would blame "the C legacy", while, in fact, it is reluctance to restrict the possible behavior of pointers and references, in exactly the same way that "Simple Typing" restricted the original Lambda Calculus to get rid of paradoxes.
+
+Modern C++ is a /dogmatic talmudism/, if you remember the old-speak. It takes huge amount of resources to make it just work (Google Chrome, JVM).
+
+Fuck it. Use Rust or Ada (unfortunately, both lack high quality libraries for almost everyhing. Rust has a lot of amateur low-effort crappy crates).
+
+Not having proper [parameterized] Algebraic Types and Type-Classes or Traits is a sign of a crappy imperative language built by /unqualified/. Adding them later /ad-hook/ resulted in abominations like Java Generics or the STL.
+
 ** Java
 I would not call names on James Gosling, but we have to admit that he was /ignorant/ of every single development in the LISP, ML and Functional programming traditions, and ignored and perhaps even fired /the/ Guy Steele -- an expert in programming language syntax and semantics -- so now we have to say everything two times ("get the papers, get the papers").
 
 It was well-understood back in /the late 80s and the early 90s/ that strong typing is /"the must"/ and that the most of the types can be systematically and soundly /inferred/, /at least on the other side of an assignment/ statement.
 
 We have to admit that the two fundamental ideas -- to eliminate the "naked pointers" (and to /implicitly use references/), and to compile to an intermediate bytecode, which, in turn, can be easily mapped to almost any CPU instruction set (a machine architecture) -- were great. He is definitely a very good /engineer/ and a mediocre and /unqualified/  programming language designer.
+** Ada
+
 ** Rust
 Rust did /a lot/ of the fundamental things (for an imperative language) just right.
 
