@@ -1,16 +1,17 @@
-- [How to program?](#org1e886dc)
-- [Social aspects](#org13086cf)
-- [Imperative crap](#org5c3a703)
-- [Understanding the &ldquo;whys&rdquo;](#org3ad67b2)
-  - [Machines languages](#orgcf180c0)
-  - [C](#org05c370a)
-  - [The C-like syntax](#org22f6b4a)
-  - [Calling conventions](#org38b7620)
-  - [C++](#org15933c7)
-  - [Java](#orgeaf8146)
-  - [Rust](#orged08931)
-- [Psychological aspects](#org47b3411)
-- [The &ldquo;right understanding&rdquo;](#orgad02395)
+- [How to program?](#orga554b5e)
+- [Social aspects](#org8d341c9)
+- [Imperative crap](#orgd48830f)
+- [Understanding the &ldquo;whys&rdquo;](#org805eae4)
+  - [Machines languages](#org4aa95d0)
+  - [C](#orga7ee246)
+  - [The C-like syntax](#orgbc563f2)
+  - [Calling conventions](#org1b9c99a)
+  - [C++](#org5b2d796)
+  - [Java](#orgbb8de41)
+  - [Rust](#org050c49e)
+- [Psychological aspects](#org0e7d983)
+- [The &ldquo;right understanding&rdquo;](#orge2c8d5d)
+- [The most important thing](#org6fed591)
 
 Why am I writing this and keeping it inside a project? Because we have to be at the same level of understanding, so our communication will be meaningful.
 
@@ -23,14 +24,14 @@ This, by the way, is how one actually understands mathematics &#x2013; by tracin
 The same universal (to the Mind of an external observer) principle is required for any proper understanding, including CS and programming.
 
 
-<a id="org1e886dc"></a>
+<a id="orga554b5e"></a>
 
 # How to program?
 
 Well, you *learn things as they [really] are* and then *just do the right thing*. These &ldquo;laws&rdquo; are as old as the Buddha.
 
 
-<a id="org13086cf"></a>
+<a id="org8d341c9"></a>
 
 # Social aspects
 
@@ -45,7 +46,7 @@ Every single stroke of a brush, every single color, every stone within Egyptian 
 Do you thing &ldquo;programming&rdquo; is different? Why would it be?
 
 
-<a id="org5c3a703"></a>
+<a id="orgd48830f"></a>
 
 # Imperative crap
 
@@ -58,7 +59,7 @@ The goal was sound and noble &#x2013; to develop a general purpose *higher-level
 The only problem was that this family of languages has no implementations used by anyone.
 
 
-<a id="org3ad67b2"></a>
+<a id="org805eae4"></a>
 
 # Understanding the &ldquo;whys&rdquo;
 
@@ -77,7 +78,7 @@ The traditional memory &ldquo;layout&rdquo; of *the code segment, the data segme
 Understanding &ldquo;what is&rdquo; and &ldquo;why it is the way it is&rdquo; is *the proper understanding*, from which everything follows.
 
 
-<a id="orgcf180c0"></a>
+<a id="org4aa95d0"></a>
 
 ## Machines languages
 
@@ -90,7 +91,7 @@ The programmers of the past just wrote sequences of &ldquo;commands&rdquo; to a 
 All the hardware details (of widths, number representations, encodings) has to be learned beforehand.
 
 
-<a id="org05c370a"></a>
+<a id="orga7ee246"></a>
 
 ## C
 
@@ -113,7 +114,7 @@ Notice that *back then* there were noting like multi-byte encodings, &ldquo;thre
 The means of encapsulation of the state was a &ldquo;process&rdquo; (a whole statically-linked and properly isolated binary).
 
 
-<a id="org22f6b4a"></a>
+<a id="orgbc563f2"></a>
 
 ## The C-like syntax
 
@@ -124,7 +125,7 @@ Sane *academic imperative languages*, such as *Ada*, tend to the original (verbo
 It is funny that *Ada*, being a &ldquo;military language&rdquo;, is actually an *academic* language (DARPA just paid for it), while stuff which sold to us as &ldquo;profound&rdquo; (C++, Java) has been created by literal incompetent and unqualified &ldquo;cavaliermen&rdquo;.
 
 
-<a id="org38b7620"></a>
+<a id="org1b9c99a"></a>
 
 ## Calling conventions
 
@@ -141,17 +142,17 @@ Thus all the modern imperative languages &ldquo;follow&rdquo; the calling conven
 Understanding the &ldquo;memory model&rdquo; (the stack, the heap and the procedure calling conventions) is still essential, to see the &ldquo;whys&rdquo; behind what Java, lets say, (or C++) do.
 
 
-<a id="org15933c7"></a>
+<a id="org5b2d796"></a>
 
 ## C++
 
 
-<a id="orgeaf8146"></a>
+<a id="orgbb8de41"></a>
 
 ## Java
 
 
-<a id="orged08931"></a>
+<a id="org050c49e"></a>
 
 ## Rust
 
@@ -164,7 +165,7 @@ At even a higher level, composition of *traits* (instead of rigid &ldquo;inherit
 Lifting the *lifetimes* into the type-system and restricting and *formalizing* the behavior of *references* (at most one mutable reference at a time, which is an implicit property for *refs* in functional languages) is Rust&rsquo;s distinct, unique innovation.
 
 
-<a id="org47b3411"></a>
+<a id="org0e7d983"></a>
 
 # Psychological aspects
 
@@ -177,7 +178,7 @@ People do what they *feel like doing*, not what is rational to do.
 This is why we have C++ and utter fucking abominations like *PHP, Java* or *Javascript* at the very top rows of statistical reports.
 
 
-<a id="orgad02395"></a>
+<a id="orge2c8d5d"></a>
 
 # The &ldquo;right understanding&rdquo;
 
@@ -198,3 +199,12 @@ Haskell is, technically, an executable system of logic (a *declarative* system o
 Ideally, we should to program in Haskell, Scala3 or Rust, depending on what the constraints (including the availability of layered, DSL-based libraries) are.
 
 But knowing (mastering) the underlying universal principles, one could program in *any* language, except, perhaps, PHP and Javascript, due to basic hygiene reasons.
+
+
+<a id="org6fed591"></a>
+
+# The most important thing
+
+The most important thing is to develop and rely on *your own intuitive understanding*, based on your own &ldquo;realizations&rdquo; from experience (by doing!) not on what some narcissistic asshole is saying on the internet, youtube or some imageboard full of incompetent amateurs.
+
+This is *the only way*. The way of the Buddha himself (who explicitly proclaimed that everything is based on &ldquo;the right understanding&rdquo; [of /What Is/]).

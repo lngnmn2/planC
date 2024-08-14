@@ -135,3 +135,8 @@ Haskell is, technically, an executable system of logic (a /declarative/ system o
 Ideally, we should to program in Haskell, Scala3 or Rust, depending on what the constraints (including the availability of layered, DSL-based libraries) are.
 
 But knowing (mastering) the underlying universal principles, one could program in /any/ language, except, perhaps, PHP and Javascript, due to basic hygiene reasons.
+
+* The most important thing
+The most important thing is to develop and rely on /your own intuitive understanding/, based on your own "realizations" from experience (by doing!) not on what some narcissistic asshole is saying on the internet, youtube or some imageboard full of incompetent amateurs.
+
+This is /the only way/. The way of the Buddha himself (who explicitly proclaimed that everything is based on "the right understanding" [of /What Is/]).
