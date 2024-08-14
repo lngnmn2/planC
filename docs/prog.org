@@ -91,6 +91,8 @@ Yes, the "familiarity" and "the feel of it" is what sells, but there are other c
 
 People who publicly issue statements like "the syntax does not matter" are plain incompetent idiots. Java would be *way less hated by smart people* if the designers would give some considerations to the syntax.
 
+Modern C++ is righteously hated partially due to an inconsistent and incomprehensible syntactic vomit - a sign of a low-effort crap (adding shit later in a rush).
+
 ** Calling conventions
 Every machine supports "procedural programming paradigm" and has a built-in notion of a procedure.
 
