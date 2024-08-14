@@ -87,6 +87,10 @@ Sane /academic imperative languages/, such as /Ada/, tend to the original (verbo
 
 It is funny that /Ada/, being a "military language", is actually an /academic/ language (DARPA just paid for it), while stuff which sold to us as "profound" (C++, Java) has been created by literal incompetent and unqualified "cavaliermen".
 
+Yes, the "familiarity" and "the feel of it" is what sells, but there are other considerations and evolved (discovered) patterns. The fact that /Python/ is eating the world is the proof (by example) that a clean and highly polished syntax maters /a lot/.
+
+People who publicly issue statements like "the syntax does not matter" are plain incompetent idiots. Java would be *way less hated by smart people* if the designers would give some considerations to the syntax.
+
 ** Calling conventions
 Every machine supports "procedural programming paradigm" and has a built-in notion of a procedure.
 
