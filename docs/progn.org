@@ -6,7 +6,7 @@ Just like /Arnold/ built his body, in vain, and /Tyson/ built his body and skill
 
 This is just the same kind of a biological process based on systematic repetition and the resulting /temporary/ transformations of the relevant cell clusters, only to disintegrate later, in accordance with the Buddha's teaching.
 
-This does not mean, however, that we (and they) should have done it.
+This does not mean, however, that we (and them) should not have done it.
 
 * Why?
 Why am I writing this and keeping it inside a project? Because we have to be at the same level of understanding, so our communication will be clear and meaningful.
@@ -22,9 +22,9 @@ The same universal (to the Mind of an external observer) principle is required f
 * How to program?
 Well, you /learn things as they [really] are/ and then /just do the right thing/. These "laws" are as old as the Buddha.
 
-The problem is, as usual, that the reality has been completely (and many times) distorted by a mountains, literally whole Himalayas, of meaningless verbiage, written and spoken.
+The problem is, as usual, that the reality has been completely (and many times) distorted by mountains, literally whole Himalayas, of meaningless verbiage, written and spoken.
 
-Every single degen nowadays is either an AI researcher or a "software developer", and every single one writes some crappy pop-sci books for low IQ audiences (hi, Cal, again).
+Every single degen nowadays is either an AI researcher or a "software developer", and every single one writes some crappy pop-sci books for low IQ audiences (hi, Cal).
 
 Books are broken beyond repair. We won't have more Steppenwolves or Zen and Arts.
 
@@ -35,7 +35,7 @@ Young autistic people usually hit this wall very early -- /"all these people can
 
 Yes, all these people are wrong most of the time. We have seen this /literally everywhere/.
 
-Every single stroke of a brush, every single color, every stone within Egyptian temples and pyramids were "due according to absolutely proper and infallible reasons". They did everything according to the current social norms and the current social consensus.
+Every single stroke of a brush, every single color, every stone within Egyptian temples and pyramids were made "according to absolutely proper and infallible reasons". They did everything according to the current social norms and the current social consensus.
 
 Guess what? It is all bullshit (well, just nice traditional /art forms/).
 
@@ -84,7 +84,7 @@ There is, however, some crucial things to understand.
 
 The types were not /mathematical sets (which corresponds to abstract number systems)/ but subsets "bounded" by hardware, just like it is within hardware itself.
 
-The general notion of an /ordered sequence/ (terminated by a distinct /stop-marker/) has been borrowed from genetics (and early LISPs).
+The general notion of an /ordered sequence/ (terminated by a distinct /stop-marker/) has been borrowed from molecular biology (and early LISPs).
 
 It was intentionally a "small language" (compared to PL/1) with a /lightweight syntax/, and just a few "chosen" syntactic forms.
 
@@ -125,11 +125,11 @@ Understanding the "memory model" (the stack, the heap and the procedure calling 
 ** C++
 The "C with classes" (and structs with methods) was really nice and indeed a "++" to C.
 
-Then something went wrong. Novadays people would blame "the C legacy", while, in fact, it is reluctance to restrict the possible behavior of pointers and references, in exactly the same way that "Simple Typing" restricted the original Lambda Calculus to get rid of paradoxes.
+Then something went wrong. Nowadays people would blame "the C legacy", while, in fact, it is reluctance to restrict the possible behavior of pointers and references, in exactly the same way that "Simple Typing" restricted the original Lambda Calculus to get rid of paradoxes.
 
 Modern C++ is a /dogmatic talmudism/, if you remember the old-speak. It takes huge amount of resources to make it just work (Google Chrome, JVM).
 
-Fuck it. Use Rust or Ada (unfortunately, both lack high quality libraries for almost everyhing. Rust has a lot of amateur low-effort crappy crates).
+Fuck it. Use Rust or Ada (unfortunately, both lack high quality libraries for almost everything. Rust has a lot of amateur low-effort crappy crates).
 
 Not having proper [parameterized] Algebraic Types and Type-Classes or Traits is a sign of a crappy imperative language built by /unqualified/. Adding them later /ad-hook/ resulted in abominations like Java Generics or the STL.
 

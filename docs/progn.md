@@ -1,28 +1,28 @@
-- [Why?](#org2b7b7b6)
-- [How to program?](#orgaefb595)
-- [Social aspects](#org02d18a3)
-- [Imperative crap](#org02614f6)
-- [Understanding the &ldquo;whys&rdquo;](#orgccca385)
-  - [Machines languages](#orge81de9a)
-  - [C](#org64d9ac6)
-  - [The C-like syntax](#org3f7bf8d)
-  - [Calling conventions](#orgb713706)
-  - [C++](#org508a94e)
-  - [Java](#orga887135)
-  - [Ada](#org0c479df)
-  - [Rust](#orgc005b40)
-- [Psychological aspects](#org9ddbf23)
-- [The &ldquo;right understanding&rdquo;](#org0f89d08)
-- [The most important thing](#orgc4e3ab5)
+- [Why?](#org3cfea16)
+- [How to program?](#orge890021)
+- [Social aspects](#org78ca043)
+- [Imperative crap](#org5d19501)
+- [Understanding the &ldquo;whys&rdquo;](#org1289b28)
+  - [Machines languages](#org1d44372)
+  - [C](#org31b6e68)
+  - [The C-like syntax](#org796385a)
+  - [Calling conventions](#org2dca494)
+  - [C++](#org267d36d)
+  - [Java](#org879d3c5)
+  - [Ada](#org9cd5e6a)
+  - [Rust](#orgcd3baec)
+- [Psychological aspects](#orgd44f8e6)
+- [The &ldquo;right understanding&rdquo;](#orge586497)
+- [The most important thing](#org3e2794f)
 
 Just like *Arnold* built his body, in vain, and *Tyson* built his body and skills, also in vain, we are laboriously building our &ldquo;less wrong&rdquo; and presumably as accurate as possible &ldquo;inner representations of *What Is*&rdquo; within our brains. In vain, all the same.
 
 This is just the same kind of a biological process based on systematic repetition and the resulting *temporary* transformations of the relevant cell clusters, only to disintegrate later, in accordance with the Buddha&rsquo;s teaching.
 
-This does not mean, however, that we (and they) should have done it.
+This does not mean, however, that we (and them) should not have done it.
 
 
-<a id="org2b7b7b6"></a>
+<a id="org3cfea16"></a>
 
 # Why?
 
@@ -37,20 +37,20 @@ This, by the way, is how one deeply and truly understands mathematics &#x2013; b
 The same universal (to the Mind of an external observer) principle is required for any proper understanding, including CS and programming. This is how the Buddha himself abstained his realizations &#x2013; reducing everything back to *What Is*.
 
 
-<a id="orgaefb595"></a>
+<a id="orge890021"></a>
 
 # How to program?
 
 Well, you *learn things as they [really] are* and then *just do the right thing*. These &ldquo;laws&rdquo; are as old as the Buddha.
 
-The problem is, as usual, that the reality has been completely (and many times) distorted by a mountains, literally whole Himalayas, of meaningless verbiage, written and spoken.
+The problem is, as usual, that the reality has been completely (and many times) distorted by mountains, literally whole Himalayas, of meaningless verbiage, written and spoken.
 
-Every single degen nowadays is either an AI researcher or a &ldquo;software developer&rdquo;, and every single one writes some crappy pop-sci books for low IQ audiences (hi, Cal, again).
+Every single degen nowadays is either an AI researcher or a &ldquo;software developer&rdquo;, and every single one writes some crappy pop-sci books for low IQ audiences (hi, Cal).
 
 Books are broken beyond repair. We won&rsquo;t have more Steppenwolves or Zen and Arts.
 
 
-<a id="org02d18a3"></a>
+<a id="org78ca043"></a>
 
 # Social aspects
 
@@ -60,14 +60,14 @@ Young autistic people usually hit this wall very early &#x2013; *&ldquo;all thes
 
 Yes, all these people are wrong most of the time. We have seen this *literally everywhere*.
 
-Every single stroke of a brush, every single color, every stone within Egyptian temples and pyramids were &ldquo;due according to absolutely proper and infallible reasons&rdquo;. They did everything according to the current social norms and the current social consensus.
+Every single stroke of a brush, every single color, every stone within Egyptian temples and pyramids were made &ldquo;according to absolutely proper and infallible reasons&rdquo;. They did everything according to the current social norms and the current social consensus.
 
 Guess what? It is all bullshit (well, just nice traditional *art forms*).
 
 Do you thing &ldquo;programming&rdquo; is different? Why would it be?
 
 
-<a id="org02614f6"></a>
+<a id="org5d19501"></a>
 
 # Imperative crap
 
@@ -84,7 +84,7 @@ Another ultimate *virus* (which seemingly infected *both* Stroustrup and Gosling
 When you see or hear the word &ldquo;simulation&rdquo; being used, watch out for a liberal arts &ldquo;education&rdquo; memes and general stupidity. Simulations have exactly the same relations with reality as cartoons or stories, (even more distant, being at a completely different level from *What Is*.
 
 
-<a id="orgccca385"></a>
+<a id="org1289b28"></a>
 
 # Understanding the &ldquo;whys&rdquo;
 
@@ -103,7 +103,7 @@ The traditional memory &ldquo;layout&rdquo; of *the code segment, the data segme
 Understanding &ldquo;what is&rdquo; and &ldquo;why it is the way it is&rdquo; is *the proper understanding*, from which everything follows.
 
 
-<a id="orge81de9a"></a>
+<a id="org1d44372"></a>
 
 ## Machines languages
 
@@ -116,7 +116,7 @@ The programmers of the past just wrote sequences of &ldquo;commands&rdquo; to a 
 All the hardware details (of widths, number representations, encodings) has to be learned beforehand.
 
 
-<a id="org64d9ac6"></a>
+<a id="org31b6e68"></a>
 
 ## C
 
@@ -126,7 +126,7 @@ There is, however, some crucial things to understand.
 
 The types were not *mathematical sets (which corresponds to abstract number systems)* but subsets &ldquo;bounded&rdquo; by hardware, just like it is within hardware itself.
 
-The general notion of an *ordered sequence* (terminated by a distinct *stop-marker*) has been borrowed from genetics (and early LISPs).
+The general notion of an *ordered sequence* (terminated by a distinct *stop-marker*) has been borrowed from molecular biology (and early LISPs).
 
 It was intentionally a &ldquo;small language&rdquo; (compared to PL/1) with a *lightweight syntax*, and just a few &ldquo;chosen&rdquo; syntactic forms.
 
@@ -139,7 +139,7 @@ Notice that *back then* there were noting like multi-byte encodings, &ldquo;thre
 The means of encapsulation of the state was a &ldquo;process&rdquo; (a whole statically-linked and properly isolated binary being partially loaded into memory).
 
 
-<a id="org3f7bf8d"></a>
+<a id="org796385a"></a>
 
 ## The C-like syntax
 
@@ -156,7 +156,7 @@ People who publicly issue statements like &ldquo;the syntax does not matter&rdqu
 Modern C++ is righteously hated partially due to an inconsistent and incomprehensible syntactic vomit - a sign of a low-effort crap (adding shit later in a rush).
 
 
-<a id="orgb713706"></a>
+<a id="org2dca494"></a>
 
 ## Calling conventions
 
@@ -173,22 +173,22 @@ Thus all the modern imperative languages &ldquo;follow&rdquo; the calling conven
 Understanding the &ldquo;memory model&rdquo; (the stack, the heap and the procedure calling conventions) is still essential, to see the &ldquo;whys&rdquo; behind what Java, lets say, (or C++) do.
 
 
-<a id="org508a94e"></a>
+<a id="org267d36d"></a>
 
 ## C++
 
 The &ldquo;C with classes&rdquo; (and structs with methods) was really nice and indeed a &ldquo;++&rdquo; to C.
 
-Then something went wrong. Novadays people would blame &ldquo;the C legacy&rdquo;, while, in fact, it is reluctance to restrict the possible behavior of pointers and references, in exactly the same way that &ldquo;Simple Typing&rdquo; restricted the original Lambda Calculus to get rid of paradoxes.
+Then something went wrong. Nowadays people would blame &ldquo;the C legacy&rdquo;, while, in fact, it is reluctance to restrict the possible behavior of pointers and references, in exactly the same way that &ldquo;Simple Typing&rdquo; restricted the original Lambda Calculus to get rid of paradoxes.
 
 Modern C++ is a *dogmatic talmudism*, if you remember the old-speak. It takes huge amount of resources to make it just work (Google Chrome, JVM).
 
-Fuck it. Use Rust or Ada (unfortunately, both lack high quality libraries for almost everyhing. Rust has a lot of amateur low-effort crappy crates).
+Fuck it. Use Rust or Ada (unfortunately, both lack high quality libraries for almost everything. Rust has a lot of amateur low-effort crappy crates).
 
 Not having proper [parameterized] Algebraic Types and Type-Classes or Traits is a sign of a crappy imperative language built by *unqualified*. Adding them later *ad-hook* resulted in abominations like Java Generics or the STL.
 
 
-<a id="orga887135"></a>
+<a id="org879d3c5"></a>
 
 ## Java
 
@@ -199,12 +199,12 @@ It was well-understood back in *the late 80s and the early 90s* that strong typi
 We have to admit that the two fundamental ideas &#x2013; to eliminate the &ldquo;naked pointers&rdquo; (and to *implicitly use references*), and to compile to an intermediate bytecode, which, in turn, can be easily mapped to almost any CPU instruction set (a machine architecture) &#x2013; were great. He is definitely a very good *engineer* and a mediocre and *unqualified* programming language designer.
 
 
-<a id="org0c479df"></a>
+<a id="org9cd5e6a"></a>
 
 ## Ada
 
 
-<a id="orgc005b40"></a>
+<a id="orgcd3baec"></a>
 
 ## Rust
 
@@ -217,7 +217,7 @@ At even a higher level, composition of *traits* (instead of rigid &ldquo;inherit
 Lifting the *lifetimes* into the type-system and restricting and *formalizing* the behavior of *references* (at most one mutable reference at a time, which is an implicit property for *refs* in functional languages) is Rust&rsquo;s distinct, unique innovation.
 
 
-<a id="org9ddbf23"></a>
+<a id="orgd44f8e6"></a>
 
 # Psychological aspects
 
@@ -230,7 +230,7 @@ People do what they *feel like doing*, not what is rational to do.
 This is why we have C++ and utter fucking abominations like *PHP, Java* or *Javascript* at the very top rows of statistical reports.
 
 
-<a id="org0f89d08"></a>
+<a id="orge586497"></a>
 
 # The &ldquo;right understanding&rdquo;
 
@@ -253,7 +253,7 @@ Ideally, we should to program in Haskell, Scala3 or Rust, depending on what the 
 But knowing (mastering) the underlying universal principles, one could program in *any* language, except, perhaps, PHP and Javascript, due to basic hygiene reasons.
 
 
-<a id="orgc4e3ab5"></a>
+<a id="org3e2794f"></a>
 
 # The most important thing
 
