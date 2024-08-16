@@ -1,19 +1,23 @@
-- [Why?](#org6226b58)
-- [How to program?](#orgf4f65df)
-- [Social aspects](#org9fbabf0)
-- [Imperative crap](#org5943ca5)
-- [Understanding the &ldquo;whys&rdquo;](#orgb9f74c8)
-  - [Machines languages](#org5777934)
-  - [C](#org94cc2f2)
-  - [The C-like syntax](#org9c8df14)
-  - [Calling conventions](#org21ec59b)
-  - [C++](#org815e243)
-  - [Java](#org795897b)
-  - [Ada](#org71785a6)
-  - [Rust](#org9b6209f)
-- [Psychological aspects](#orgcf0eb3c)
-- [The &ldquo;right understanding&rdquo;](#orge9dd0e5)
-- [The most important thing](#orgefe0572)
+- [Why?](#org0da8936)
+- [How to program?](#org518ad82)
+- [Social aspects](#org64ee4b1)
+- [Imperative crap](#org9cb1925)
+- [Understanding the &ldquo;whys&rdquo;](#org0a85646)
+  - [Machines languages](#org745a212)
+  - [C](#org157ce79)
+  - [The C-like syntax](#orgfeccbc3)
+  - [Calling conventions](#org23eca9f)
+  - [C++](#orgd1dccfb)
+  - [Java](#org5bb9042)
+  - [Ada](#orgd471401)
+  - [Rust](#orgb5aa0b8)
+- [Psychological aspects](#org0f3b5c4)
+- [The &ldquo;right understanding&rdquo;](#orgc37de34)
+- [The most important thing](#orgfd382d5)
+- [Bullshit, bullshit everywhere](#org77e452a)
+  - [TTD](#org98eb99a)
+  - [Agile](#orgf665938)
+  - [&ldquo;Safe&rdquo; languages](#org3629827)
 
 Just like *Arnold* built his body, in vain, and *Tyson* built his body and skills, also in vain, we are laboriously building our &ldquo;less wrong&rdquo; and presumably as accurate as possible &ldquo;inner representations of *What Is*&rdquo; within our brains. In vain, all the same.
 
@@ -22,7 +26,7 @@ This is just the same kind of a biological process based on systematic repetitio
 This does not mean, however, that we (and them) should not have done it.
 
 
-<a id="org6226b58"></a>
+<a id="org0da8936"></a>
 
 # Why?
 
@@ -37,7 +41,7 @@ This, by the way, is how one deeply and truly understands mathematics &#x2013; b
 The same universal (to the Mind of an external observer) principle is required for any proper understanding, including CS and programming. This is how the Buddha himself abstained his realizations &#x2013; reducing everything back to *What Is*.
 
 
-<a id="orgf4f65df"></a>
+<a id="org518ad82"></a>
 
 # How to program?
 
@@ -50,7 +54,7 @@ Every single degen nowadays is either an AI researcher or a &ldquo;software deve
 Books are broken beyond repair. We won&rsquo;t have more Steppenwolves or Zen and Arts.
 
 
-<a id="org9fbabf0"></a>
+<a id="org64ee4b1"></a>
 
 # Social aspects
 
@@ -67,7 +71,7 @@ Guess what? It is all bullshit (well, just nice traditional *art forms*).
 Do you thing &ldquo;programming&rdquo; is different? Why would it be?
 
 
-<a id="org5943ca5"></a>
+<a id="org9cb1925"></a>
 
 # Imperative crap
 
@@ -84,7 +88,7 @@ Another ultimate *virus* (which seemingly infected *both* Stroustrup and Gosling
 When you see or hear the word &ldquo;simulation&rdquo; being used, watch out for a liberal arts &ldquo;education&rdquo; memes and general stupidity. Simulations have exactly the same relations with reality as cartoons or stories, (even more distant, being at a completely different level from *What Is*.
 
 
-<a id="orgb9f74c8"></a>
+<a id="org0a85646"></a>
 
 # Understanding the &ldquo;whys&rdquo;
 
@@ -103,7 +107,7 @@ The traditional memory &ldquo;layout&rdquo; of *the code segment, the data segme
 Understanding &ldquo;what is&rdquo; and &ldquo;why it is the way it is&rdquo; is *the proper understanding*, from which everything follows.
 
 
-<a id="org5777934"></a>
+<a id="org745a212"></a>
 
 ## Machines languages
 
@@ -116,7 +120,7 @@ The programmers of the past just wrote sequences of &ldquo;commands&rdquo; to a 
 All the hardware details (of widths, number representations, encodings) has to be learned beforehand.
 
 
-<a id="org94cc2f2"></a>
+<a id="org157ce79"></a>
 
 ## C
 
@@ -139,7 +143,7 @@ Notice that *back then* there were noting like multi-byte encodings, &ldquo;thre
 The means of encapsulation of the state was a &ldquo;process&rdquo; (a whole statically-linked and properly isolated binary being partially loaded into memory).
 
 
-<a id="org9c8df14"></a>
+<a id="orgfeccbc3"></a>
 
 ## The C-like syntax
 
@@ -156,7 +160,7 @@ People who publicly issue statements like &ldquo;the syntax does not matter&rdqu
 Modern C++ is righteously hated partially due to an inconsistent and incomprehensible syntactic vomit - a sign of a low-effort crap (adding shit later in a rush).
 
 
-<a id="org21ec59b"></a>
+<a id="org23eca9f"></a>
 
 ## Calling conventions
 
@@ -173,7 +177,7 @@ Thus all the modern imperative languages &ldquo;follow&rdquo; the calling conven
 Understanding the &ldquo;memory model&rdquo; (the stack, the heap and the procedure calling conventions) is still essential, to see the &ldquo;whys&rdquo; behind what Java, lets say, (or C++) do.
 
 
-<a id="org815e243"></a>
+<a id="orgd1dccfb"></a>
 
 ## C++
 
@@ -188,7 +192,7 @@ Fuck it. Use Rust or Ada (unfortunately, both lack high quality libraries for al
 Not having proper [parameterized] Algebraic Types and Type-Classes or Traits is a sign of a crappy imperative language built by *unqualified*. Adding them later *ad-hook* resulted in abominations like Java Generics or the STL.
 
 
-<a id="org795897b"></a>
+<a id="org5bb9042"></a>
 
 ## Java
 
@@ -199,12 +203,12 @@ It was well-understood back in *the late 80s and the early 90s* that strong typi
 We have to admit that the two fundamental ideas &#x2013; to eliminate the &ldquo;naked pointers&rdquo; (and to *implicitly use references*), and to compile to an intermediate bytecode, which, in turn, can be easily mapped to almost any CPU instruction set (a machine architecture) &#x2013; were great. He is definitely a very good *engineer* and a mediocre and *unqualified* programming language designer.
 
 
-<a id="org71785a6"></a>
+<a id="orgd471401"></a>
 
 ## Ada
 
 
-<a id="org9b6209f"></a>
+<a id="orgb5aa0b8"></a>
 
 ## Rust
 
@@ -217,7 +221,7 @@ At even a higher level, composition of *traits* (instead of rigid &ldquo;inherit
 Lifting the *lifetimes* into the type-system and restricting and *formalizing* the behavior of *references* (at most one mutable reference at a time, which is an implicit property for *refs* in functional languages) is Rust&rsquo;s distinct, unique innovation.
 
 
-<a id="orgcf0eb3c"></a>
+<a id="org0f3b5c4"></a>
 
 # Psychological aspects
 
@@ -230,7 +234,7 @@ People do what they *feel like doing*, not what is rational to do.
 This is why we have C++ and utter fucking abominations like *PHP, Java* or *Javascript* at the very top rows of statistical reports.
 
 
-<a id="orge9dd0e5"></a>
+<a id="orgc37de34"></a>
 
 # The &ldquo;right understanding&rdquo;
 
@@ -253,10 +257,60 @@ Ideally, we should to program in Haskell, Scala3 or Rust, depending on what the 
 But knowing (mastering) the underlying universal principles, one could program in *any* language, except, perhaps, PHP and Javascript, due to basic hygiene reasons.
 
 
-<a id="orgefe0572"></a>
+<a id="orgfd382d5"></a>
 
 # The most important thing
 
 The most important thing is to develop and rely on *your own intuitive understanding*, based on your own &ldquo;realizations&rdquo; from experience (by doing!) not on what some narcissistic asshole is saying on the internet, youtube or some imageboard full of incompetent amateurs.
 
 This is *the only way*. The way of the Buddha himself (who explicitly proclaimed that everything is based on &ldquo;the right understanding&rdquo; [of /What Is/]).
+
+
+<a id="org77e452a"></a>
+
+# Bullshit, bullshit everywhere
+
+> &ldquo;Bullshit, bullshit, bullshit&rdquo;. &#x2013; K-PAX
+
+A 400+ pages books to maximize margins. Hours-long talks on YouTube about subjects which could be explained on a half of a page. Torrents of a meaningless vomit-like verbiage everywhere.
+
+There is always some deep underlying principles behind each meme, which make it work (somehow better than without it). It is these principles which have to be realized and understood. Everything else is bullshit.
+
+
+<a id="org98eb99a"></a>
+
+## TTD
+
+*Focus on high-level abstract interfaces from the start*. This is the principle that *actually* makes TTD (done right) useful.
+
+One has to *prototype /with /tests and stubs* &#x2013; functions has to return dummy values but the actual interfaces and the tests has to be real.
+
+This *practice* develops the habit of focusing on what is actually important, and think about *abstraction barriers* and data flows.
+
+Then comes data structures (a representation). Data dominates, the program almost writes itself when the right Algebraic Data Types has been chosen.
+
+So, set up your declarative testing DSLs (a-la `Scalatest`) first.
+
+
+<a id="orgf665938"></a>
+
+## Agile
+
+Nothing can be a substitute for design effort. *&ldquo;The sooner you jump into coding, the longer will it take&rdquo;*. Agile is NOT a substitute for a proper *top-down design* (a problem domain decomposition).
+
+The principle behind non-bullshit &ldquo;agile&rdquo; is a *quick, spiral-shaped process of complete (Always Be Compiled, &ldquo;all tests passed&rdquo;) iterations, so your program is always in a /consistent*, stable state.
+
+Again, this is actually a *spiral*, not a loop, even it looks like from a particular (perpendicular) point of view. The *completeness* of an &ldquo;iteration&rdquo; is the they. Keeping them small just a follows.
+
+It makes *inevitable (in a search process of &ldquo;trial-and-error&rdquo;) &ldquo;back-tracking and restarts&rdquo;* frequent and less painful.
+
+
+<a id="org3629827"></a>
+
+## &ldquo;Safe&rdquo; languages
+
+This is the &ldquo;last 10% of the code takes *another 90%* of the time&rdquo; principle.
+
+Absence of certain classes of subtle bugs pays off in the overall time of developmet.
+
+Programs is &ldquo;type-safe and memory-safe languages&rdquo; take way less time to stabilize (once it compiles it works without &ldquo;surprises&rdquo;) and are easier and faster to *change* maintain.

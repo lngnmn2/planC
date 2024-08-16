@@ -182,3 +182,39 @@ But knowing (mastering) the underlying universal principles, one could program i
 The most important thing is to develop and rely on /your own intuitive understanding/, based on your own "realizations" from experience (by doing!) not on what some narcissistic asshole is saying on the internet, youtube or some imageboard full of incompetent amateurs.
 
 This is /the only way/. The way of the Buddha himself (who explicitly proclaimed that everything is based on "the right understanding" [of /What Is/]).
+
+* Bullshit, bullshit everywhere
+#+BEGIN_QUOTE
+"Bullshit, bullshit, bullshit".
+-- K-PAX
+#+END_QUOTE
+A 400+ pages books to maximize margins. Hours-long talks on YouTube about subjects which could be explained on a half of a page. Torrents of a meaningless vomit-like verbiage everywhere.
+
+There is always some deep underlying principles behind each meme, which make it work (somehow better than without it). It is these principles which have to be realized and understood. Everything else is bullshit.
+
+** TTD
+ /Focus on high-level abstract interfaces from the start/. This is the  principle that /actually/ makes TTD (done right) useful.
+
+ One has to /prototype /with /tests and stubs/ -- functions has to return dummy values but the actual interfaces and the tests has to be real.
+
+ This /practice/ develops the habit of focusing on what is actually important, and think about /abstraction barriers/ and data flows.
+
+ Then comes data structures (a representation). Data dominates, the program almost writes itself when the right Algebraic Data Types has been chosen.
+
+ So, set up your declarative testing DSLs (a-la ~Scalatest~) first.
+
+** Agile
+Nothing can be a substitute for design effort. /"The sooner you jump into coding, the longer will it take"/. Agile is NOT a substitute for a proper /top-down design/ (a problem domain decomposition).
+
+The principle behind non-bullshit "agile" is a /quick, spiral-shaped process of complete (Always Be Compiled, "all tests passed") iterations, so your program is always in a /consistent/, stable state.
+
+Again, this is actually a /spiral/, not a loop, even it looks like from a particular (perpendicular) point of view. The /completeness/ of an "iteration" is the they. Keeping them small just a follows.
+
+It makes /inevitable (in a search process of "trial-and-error") "back-tracking and restarts"/ frequent and less painful.
+
+** "Safe" languages
+This is the "last 10% of the code takes /another 90%/ of the time" principle.
+
+Absence of certain classes of subtle bugs pays off in the overall time of developmet.
+
+Programs is "type-safe and memory-safe languages" take way less time to stabilize (once it compiles it works without "surprises") and are easier and faster to /change/ maintain.
