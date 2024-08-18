@@ -1,8 +1,10 @@
-- [The Architecture Of Complexity](#org8a346ed)
+- [The Architecture Of Complexity](#orgebb5564)
+- [Discrete-time signal processing (Alan V. Oppenheim)](#orgabb897b)
+- [Time series](#org162fe12)
 
 
 
-<a id="org8a346ed"></a>
+<a id="orgebb5564"></a>
 
 # The Architecture Of Complexity
 
@@ -31,3 +33,21 @@ The only thing that &ldquo;missed&rdquo; is the subtle notion from Haskell, wher
 *Every Monad defines and implicit abstraction barrier* (using Kleisli arrows, which we call `return` or &ldquo;lifting&rdquo; in general), but his is another story, this time by me.
 
 [The Architecture Of Complexity (Herbert A. Simon, 1962)](https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/ArchitectureOfComplexity.HSimon1962.pdf)
+
+
+<a id="orgabb897b"></a>
+
+# Discrete-time signal processing (Alan V. Oppenheim)
+
+The most dense books, but the fundamental concepts and proven techniques has to be extracted from them.
+
+This is the essence of learning &#x2013; to extract the right understanding from poorly written books.
+
+
+<a id="org162fe12"></a>
+
+# Time series
+
+Very difficult to find a definitive, conscise well-written non-bullshit book.
+
+My general heuristic is to look for something from the *MIT Press* first.

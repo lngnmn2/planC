@@ -27,3 +27,13 @@ The only thing that "missed" is the subtle notion from Haskell, where the monadi
 /Every Monad defines and implicit abstraction barrier/ (using Kleisli arrows, which we call ~return~ or "lifting" in general), but his is another story, this time by me.
 
 [[https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/ArchitectureOfComplexity.HSimon1962.pdf][The Architecture Of Complexity (Herbert A. Simon, 1962)]]
+
+* Discrete-time signal processing (Alan V. Oppenheim)
+The most dense books, but the fundamental concepts and proven techniques has to be extracted from them.
+
+This is the essence of learning -- to extract the right understanding from poorly written books.
+
+* Time series
+Very difficult to find a definitive, conscise well-written non-bullshit book.
+
+My general heuristic is to look for something from the /MIT Press/ first.
