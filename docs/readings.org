@@ -1,5 +1,10 @@
 #+TITLE: Required Readings
+#+AUTHOR: <lngnmn2@yahoo.com>
+#+STARTUP: indent fold overview
 
+The major task is to extract knowledge and transfer it into ~org-roam2~ "cards", as a sort of /"knowledge base"/.
+
+Clear, concise, mathematically rigorous definitions of abstract concepts.
 
 * The Architecture Of Complexity
 This is, perhaps, the most important paper (for actually smart people).
