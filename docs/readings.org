@@ -34,11 +34,11 @@ The only thing that "missed" is the subtle notion from Haskell, where the monadi
 [[https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/ArchitectureOfComplexity.HSimon1962.pdf][The Architecture Of Complexity (Herbert A. Simon, 1962)]]
 
 * Discrete-time signal processing (Alan V. Oppenheim)
-The most dense books, but the fundamental concepts and proven techniques has to be extracted from them.
+The most dense books, but the fundamental concepts and proven techniques has to be extracted from them. The author is one of the pioneers in this field.
 
-This is the essence of learning -- to extract the right understanding from poorly written books.
+This, by the way, is the essence of learning -- to extract the right understanding from poorly or messy written books.
 
 * Time series
-Very difficult to find a definitive, conscise well-written non-bullshit book.
+Very difficult to find a definitive, concise well-written non-bullshit book.
 
 My general heuristic is to look for something from the /MIT Press/ first.
