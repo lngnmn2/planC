@@ -42,3 +42,10 @@ This, by the way, is the essence of learning -- to extract the right understandi
 Very difficult to find a definitive, concise well-written non-bullshit book.
 
 My general heuristic is to look for something from the /MIT Press/ first.
+
+* Barbara Liskov (both CLU and Java books)
+"Abstraction barriers" via abstract data types (in CLU) and Abstract Interfaces (in Java) is the true essence of programming as a discipline of managing complexity. Period.
+
+She stated everything clear and concise, within just a few pages -- the art of writing which has been forever lost.
+
+Yes, just a few pages is all you need.

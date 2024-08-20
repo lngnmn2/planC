@@ -1,10 +1,14 @@
-- [The Architecture Of Complexity](#orgebb5564)
-- [Discrete-time signal processing (Alan V. Oppenheim)](#orgabb897b)
-- [Time series](#org162fe12)
+- [The Architecture Of Complexity](#org2870c38)
+- [Discrete-time signal processing (Alan V. Oppenheim)](#org999eb15)
+- [Time series](#org1618968)
+- [Barbara Liskov (both CLU and Java books)](#orgafa37c0)
+
+The major task is to extract knowledge and transfer it into `org-roam2` &ldquo;cards&rdquo;, as a sort of *&ldquo;knowledge base&rdquo;*.
+
+Clear, concise, mathematically rigorous definitions of abstract concepts.
 
 
-
-<a id="orgebb5564"></a>
+<a id="org2870c38"></a>
 
 # The Architecture Of Complexity
 
@@ -35,19 +39,30 @@ The only thing that &ldquo;missed&rdquo; is the subtle notion from Haskell, wher
 [The Architecture Of Complexity (Herbert A. Simon, 1962)](https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/ArchitectureOfComplexity.HSimon1962.pdf)
 
 
-<a id="orgabb897b"></a>
+<a id="org999eb15"></a>
 
 # Discrete-time signal processing (Alan V. Oppenheim)
 
-The most dense books, but the fundamental concepts and proven techniques has to be extracted from them.
+The most dense books, but the fundamental concepts and proven techniques has to be extracted from them. The author is one of the pioneers in this field.
 
-This is the essence of learning &#x2013; to extract the right understanding from poorly written books.
+This, by the way, is the essence of learning &#x2013; to extract the right understanding from poorly or messy written books.
 
 
-<a id="org162fe12"></a>
+<a id="org1618968"></a>
 
 # Time series
 
-Very difficult to find a definitive, conscise well-written non-bullshit book.
+Very difficult to find a definitive, concise well-written non-bullshit book.
 
 My general heuristic is to look for something from the *MIT Press* first.
+
+
+<a id="orgafa37c0"></a>
+
+# Barbara Liskov (both CLU and Java books)
+
+&ldquo;Abstraction barriers&rdquo; via abstract data types (in CLU) and Abstract Interfaces (in Java) is the true essence of programming as a discipline of managing complexity. Period.
+
+She stated everything clear and concise, within just a few pages &#x2013; the art of writing which has been forever lost.
+
+Yes, just a few pages is all you need.
