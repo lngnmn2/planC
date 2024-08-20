@@ -1,14 +1,14 @@
-- [The Architecture Of Complexity](#org2870c38)
-- [Discrete-time signal processing (Alan V. Oppenheim)](#org999eb15)
-- [Time series](#org1618968)
-- [Barbara Liskov (both CLU and Java books)](#orgafa37c0)
+- [The Architecture Of Complexity](#org13ca162)
+- [Discrete-time signal processing (Alan V. Oppenheim)](#org27de9c2)
+- [Time series](#org227d4c0)
+- [Barbara Liskov (both CLU and Java books)](#orga798c01)
 
 The major task is to extract knowledge and transfer it into `org-roam2` &ldquo;cards&rdquo;, as a sort of *&ldquo;knowledge base&rdquo;*.
 
 Clear, concise, mathematically rigorous definitions of abstract concepts.
 
 
-<a id="org2870c38"></a>
+<a id="org13ca162"></a>
 
 # The Architecture Of Complexity
 
@@ -39,7 +39,7 @@ The only thing that &ldquo;missed&rdquo; is the subtle notion from Haskell, wher
 [The Architecture Of Complexity (Herbert A. Simon, 1962)](https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/ArchitectureOfComplexity.HSimon1962.pdf)
 
 
-<a id="org999eb15"></a>
+<a id="org27de9c2"></a>
 
 # Discrete-time signal processing (Alan V. Oppenheim)
 
@@ -48,7 +48,7 @@ The most dense books, but the fundamental concepts and proven techniques has to 
 This, by the way, is the essence of learning &#x2013; to extract the right understanding from poorly or messy written books.
 
 
-<a id="org1618968"></a>
+<a id="org227d4c0"></a>
 
 # Time series
 
@@ -57,7 +57,7 @@ Very difficult to find a definitive, concise well-written non-bullshit book.
 My general heuristic is to look for something from the *MIT Press* first.
 
 
-<a id="orgafa37c0"></a>
+<a id="orga798c01"></a>
 
 # Barbara Liskov (both CLU and Java books)
 

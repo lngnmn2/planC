@@ -1,0 +1,13 @@
+#+TITLE: The Principles and the Rules of Writing
+#+AUTHOR: <lngnmn2@yahoo.com>
+#+STARTUP: indent fold overview
+
+- /If you cannot write it down in English, you cannot code it/. (The same principle as "You don't know it if you cannot explain it to a 5 year old").
+
+- /There is no substitute to [the right] understanding/.
+
+- /The sooner you jump right into writing the code, the longer your "programming" will take/.
+
+- /If the code and the comments disagree (out of sync), then *both* are probably wrong/.
+
+- Get your data-structures correct first, and the rest of the program will write itself. (The "data dominates" quite of Rob Pike).
