@@ -31,3 +31,7 @@ And suddenly, someone like me, discovered that Monads in Haskell (which is, just
 The really smart guys (around Odersky) were generalized the *for-comprehensions* around Monadic composition, and this is where we are today.
 
 Now, how many people have actually comprehended and realized all this? I know of no one else. You would be the first to learn all this from here.
+
+The classic books about the classic languages are the source of the &ldquo;ancient&rdquo;, first intuitive, and then shared experience-based knowledge (because it properly captures some aspects of *What Is*), just, unsurprisingly, like the seers of Upanishads and the early Buddhists.
+
+*L. C. Paulson. ML for the Working Programmer* is one of such classic books. The *&ldquo;Bird & Wadler&rdquo;* is another one (here I am showing you *the way*).
