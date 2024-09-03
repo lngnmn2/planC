@@ -30,7 +30,23 @@ Since the 90s, the smartest people (who gave us CLU, SML and Haskell) told us, t
 
 If one knows some very basic cell biology, one would see the very same patterns "Out There", just as the early LISP guys did (when freshly discovered the actual structure of DNA was a big deal).
 
-And suddenly, someone like me, discovered that Monads in Haskell (which is, just a type-class for a simple ADT of a Monoidal composition) corresponds to a the notion of a universal abstraction barrier, or of a cell-membrane.
+Unlike liberal arts "educated" people used to babble about "boundless creativity" (the word-marker of an idiot), we do not have endless structures. Actually, we have /sequences, tree-like structures and a lookup tables/, where a /partial/ (and a total) function could be thought off (correctly represented as) a lookup table.
+
+DNA transcription machinery do "table lookups" and produce sequential structures, which spontaneously fold themselves into "stable forms".
+
+Just like the early LISP procedures were made out of LIST structures (nested pairs with a "CAR" and a "CDR"), all other basic data structures (/alists/, /trees/) were made from just "CONSes". This wasn't a mere coincidence, of course.
+
+The next big idea is /Immutability/ of all bindings -- both /symbol bindings/ (in an environment, which were originally just bunch of nested /alists/) and /data bindings/. /Clojure/ persued the immutability of bindings to its limit with a great success.
+
+Guess what? Immutable /balanced trees/ which represent (and implement) everything else (all the proper non-leaking ADTs), including "flat" sequences (the actual Machine Types such as arrays are grossly overhyped).
+
+Again, an immutable /binding/ (the old terminology was inspired by math and is so much better!) of a symbol to a value or of slots of a record type to a corresponding value is the most fundamental building block, just as in math itself. Unsurprisingly, the molecular structures which constitute the basis of Life Itself are "supposed to be" immutable (or at least stable-enough).
+
+Then it has been realized that just /product-types, sum-types and function types/ are enough for everything. Not just that, but they correspond to the most fundamental shapes -- sequences and lookup tables (alists), and to the logical notions of ~AND~ ~OR~ and ~->~, which is, of course, not a random coincidence.
+
+So, one begins to see (and so becomes a "seer") the big picture of a small number of the universal "forms" which underlay almost everything (and the reccuring patterns of "dots between arrows" one level behind them). /All/ your abstract types (ADTs) can be just properly /Algebraic/ and even immutable.
+
+And suddenly, someone like me discovered that Monads in Haskell (which is, just a type-class for a simple ADT of a Monoidal composition) corresponds to a the notion of a universal abstraction barrier, or of a cell-membrane.
 
 The really smart guys (around Odersky) were generalized the /for-comprehensions/ around Monadic composition, and this is where we are today.
 
