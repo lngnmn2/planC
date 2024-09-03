@@ -61,3 +61,25 @@ The classic books about the classic languages are the source of the &ldquo;ancie
 Notice that 99.6% of the &ldquo;world experts&rdquo; on HN never heard about these books, and `/g/` can barely read. This means that one could be way ahead of the crowd, if one chooses to follow &ldquo;the right path&rdquo; (of *Brian Harvey* and very few other great teachers).
 
 There are, of course, a few more *classic books*.
+
+Okay, there is a message (a tiny set of infallible principles) from the ancient traditions:
+
+One has to program in a pure subset of a mostly functional language, using layers of embedded DLS, which manipulate immutable values defined by ADTs and small (narrow) Abstract Interfaces, including Monadic ones.
+
+There is the message from an aging kung-fu master:
+
+The ability to properly capture and express a set of relevant concepts from your problem domain as an one-to-one correspondence to a set of high-level abstractions in a pure functional language like Haskell (being defined in a loosely-coupled corresponding modules) allows one to have an executable mathematical model &ldquo;for free&rdquo; (as a by-product of Haskell technically being an executable system of pure logic).
+
+This is how *mathematics itself* has been developed over a millennia &#x2013; by properly capturing and generalizing (abstracting) into mathematical abstractions, developing (extending) appropriate DSLs (notations) as needed.
+
+The simple but fundamental data types (of a particular shape) are good-enough for everything (Clojure and Scala3 proved this postulate by example, with SML and Common Lisp before that).
+
+If one really needs all that machine-level crap one can always rewrite *an already working system* into a crappy imperative &ldquo;implementation language&rdquo; of choice.
+
+One more time: the classic languages like SML and the programming style they encourage are actually the best possible ones, and everything modern is a digression from that math-inspired ideal.
+
+Haskell, miraculously, is still math. Just throw away everything amateur and study and write your extensions (to a language) using the standard library, the way it has been done in it.
+
+One will have a factor of 10 less code (has been shown experimentally in the case of Haskell), dramatically reduced complexity (by reducing everything into a familiar and well-understood math), and less time (money) spent &#x2013; it will basically work once it compiles.
+
+Sounds unreal? This is what a proper philosophy actually does to you.
