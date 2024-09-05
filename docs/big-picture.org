@@ -22,7 +22,26 @@ This is not an exaggeration in the least. By the late 90s, with the emergence of
 
 The abstract interfaces, categorized as Algebraic Types -- a proper generalization of ADTs, and corresponding small modules, which hide all the (representation and implementation) details, has been placed at the center of what a non-bullshit programming (the science of managing complexity) is really.
 
-At least 3 distinct traditions has been emerged from the Simply-Typed Lambda Calculus and ISWIM -- the ones of SML/Ocaml, Scheme and the most notably, of Miranda/Haskell. Erlang and Scala emerged as schisms of their own.
+It has been realized (at least by some of us) that the "composition of individual traits", defined as type-classes or traits (which is a /set union/ relation), NOT a strict inheritance hierarchy (which is a /set-subset relation/) is the most fundamental notion. The set-subset (class) hierarchies are too rigid and it is NOT how biology works. Composition is "more' universal.
+
+It is not a random coincidence that composition of pure functions (of matching types) in a lazy (call-by-need) language [and in the Lambda Calculus itself] could ONLY be implemented as /nesting/ of expressions. Composition /is/ nesting. This is the most esoteric notion I have discovered. /Nesting/ is /how/ hierarchies are emerging.
+
+Some /abstraction barriers/ are actually very real -- individual atoms (ions) and small molecules are an abstraction barrier for /Life Itself/. Everything in what we would call Molecular Biology is clearly separated by abstraction barriers -- atoms and ions, molecules, aminoacids, etc. It is no surprise that this very notion is at the core of [less] complex systems.
+
+In the modern parlance, representation and implementation of atoms are completely hidden (inaccessible) behind their [abstract] interface, and is irrelevant for Life Itself.
+
+At a higher level, each individual cell, which /all/ have been developed from (are /copies/ of) a single zygote, is a "message-receiving actor" (the Erlang guys were definitely onto something!) which gets its "messages" from its immediate /environment/ (locality), thus "being configured" to specialize (to exhibit a particular behavior -- to /become/ a cell of a particular kind).
+
+The notion of an /environment/, of a /particular locality/ (or more abstractly -- of a /context/) is a universal one. No process can be comprehended (an existed) separately from its environment (locality) which made it possible.
+It is not a coincidence that the notion of an environment is implicit (and necessary) for the Lambda Calculus or /any/ system of logic.
+
+The /bindings/ -- all the previous "results" (/all the stable intermediate forms/) is what a "surrounding" /environment/ corresponds to, in logic, in math, in molecular biology, in social systems (language-encoded shared knowledge). The notions of a /scope/, and of a free variable (a /symbolic reference/ to "an outside" of the local context) is just an immediate consequence.
+
+There is nothing accidental or "random" about (within) the Lambda Calculus. It captures the "very essence" at the most abstract (most general) level.
+
+From /this/ the notion of /layered/ hierarchical organization (architecture) "naturally" arises. The "architecture of complexity" is, indeed, a nested layers [of abstractions] separated clearly by abstraction barriers (interfaces) -- cells, tissues, [specialized] organs, [distinct] subsystems, systems. All from a single copy of the same cell (with exactly the same copy of whole DNA), being specialized and "configured" by its environment (surrounding, neighborhood, locality).
+
+At least 3 distinct /traditions/ has been emerged from /the Simply-Typed Lambda Calculus/ and ISWIM -- the ones of SML/Ocaml, Scheme and the most notably, of Miranda/Haskell. Erlang and Scala emerged as schisms of their own.
 
 There are a few distinct "patterns" which are common of all of these traditions -- a re-discovered (again and again) minimal subset of special forms in a mostly functional language which is good-enough (even optimal) for everything -- which what we augment the simple-typed lambda calculus. Technically, the intermediate language of the Glasgow Haskell Compiler, which corresponds to the /System F Omega/, is that "universal core".
 
@@ -86,4 +105,4 @@ Haskell, miraculously, is still math. Just throw away everything amateur and stu
 
 One will have a factor of 10 less code (has been shown experimentally in the case of Haskell), dramatically reduced complexity (by reducing everything into a familiar and well-understood math), and less time (money) spent -- it will basically work once it compiles.
 
-Sounds unreal? This is what a proper philosophy actually does to you.
+Sounds unreal? This is what a proper philosophy actually does for you.
