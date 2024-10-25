@@ -1,8 +1,8 @@
-- [No idea how bad everything is](#org1f7870b)
+- [No idea how bad everything is](#org45a4564)
 
 
 
-<a id="org1f7870b"></a>
+<a id="org45a4564"></a>
 
 # No idea how bad everything is
 
@@ -16,7 +16,7 @@ Everything has been programmed in terms of representation, which very little of 
 
 Mathematicians would have already been alarmed about using an ordinary member of a set as a special case, instead of having a well-defined *sum-type* or a *disjoint union* &#x2013; the traditional and well-understood way mathematics deals with &ldquo;distinct possibilities&rdquo;.
 
-This is actually a matter of principle. One obviously can partition a set further into subsets using *such-that* clauses with *predicates* and logical operators. `forall x, except x=0` is *easy* but stupid. Just as `forall x, except -1`, which means something else.
+This is actually a matter of principle. One obviously can partition a set further into subsets using *such-that* clauses with *predicates* and logical operators. `forall x, except x=0` is *easy* but stupid. Just as `forall x, except -1`, which means something else. These rules are stated informally and cannot be checked by a type-checker, unlike a tagged disjoint unions, which form the basis of proper sum-types.
 
 Mathematicians favor (and seek) *uniformity*. They also favor and seek well-understood common (or even universal) *algebraic structures* which *emerge* again and again through different branches of mathematics (for a reason &#x2013; it has something to do with the underlying structure of the Universe itself).
 
@@ -61,3 +61,5 @@ Languages like *Rust* (all the socially constructed &ldquo;correct pronoun&rdquo
 Understanding *precisely* what Rust did *and why* makes one a much better programmer. In short, it restricts the set of all possible expressions, just like the Simply Typed Lambda Calculus did to the way too general (and prone to paradoxes) original formalism.
 
 Yes, it has some sort of RAII, but more importantly, in principle, it switches to a *move semantics by default* &#x2013; the previous location becomes *automatically* &ldquo;invalidated&rdquo; and *inaccessible* to any code after the assignment statement (a compile-time error). One has to verbosely write down how to *copy*, instead how to *move* a value (between memory locations).
+
+biology, sequences, explicit start and stop markers, no counting (and counters) in principle multiframe, structural pattern-mathing, encoding and reading (!)
