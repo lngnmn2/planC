@@ -1,8 +1,8 @@
-- [No idea how bad everything is](#org9f18c2b)
+- [No idea how bad everything is](#orgc67e833)
 
 
 
-<a id="org9f18c2b"></a>
+<a id="orgc67e833"></a>
 
 # No idea how bad everything is
 
@@ -16,7 +16,7 @@ Every single machine type has fixes-size values, so *offsets* (implicit in any a
 
 Everything has been programmed in terms of representation, which very little of a proper abstraction (just like Lisp guys did with `car` and `cdr`). Proper ADTs (as by Barbara Liskov) were rare and even frowned upon. *The C programmers knew the representation of everything and the special value for nothing* (me). Allocation and freeing was manual, based on representation/implementation details.
 
-All this has been possible precisely because of two fundamental underlying assumptions: the processes are totally isolated from each other &#x2013; no one else could have access to its data segments. No notion of a sharing and multi-treading whatsoever, global variables all over the place, and basically no pointer invalidation, so people do `reallocs` of whole arrays fearlessly. And she ruined everything.
+All this has been possible precisely because of two fundamental underlying assumptions: the processes are totally isolated from each other &#x2013; no one else could have access to its data segments. No notion of a sharing and multi-threading whatsoever, so global variables all over the place, and basically no pointer invalidation, so people do `reallocs` of whole arrays fearlessly. And she ruined everything.
 
 Mathematicians would have already been alarmed about using an ordinary member of a set as a special case, instead of having a well-defined *sum-type* or a *disjoint union* &#x2013; the traditional and well-understood way mathematics deals with &ldquo;distinct possibilities&rdquo;.
 
