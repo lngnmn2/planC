@@ -1,8 +1,8 @@
-- [No idea how bad everything is](#org17c69c3)
+- [No idea how bad everything is](#org1f7870b)
 
 
 
-<a id="org17c69c3"></a>
+<a id="org1f7870b"></a>
 
 # No idea how bad everything is
 
@@ -14,7 +14,7 @@ Everything was more or less OK back in the 1988. The smallest addressable chunk 
 
 Everything has been programmed in terms of representation, which very little of a proper abstraction (just like Lisp guys did with `car` and `cdr`). Proper ADTs (as by Barbara Liskov) were rare and even frowned upon. *The C programmers knew the representation of everything and the special value for nothing* (me).
 
-Mathematicians would already be alarmed for using an ordinary member of a set as a special case, instead of having a well-defined *sum-type* or a *disjoint union* &#x2013; the traditional and well-understood way mathematics deals with &ldquo;distinct possibilities&rdquo;.
+Mathematicians would have already been alarmed about using an ordinary member of a set as a special case, instead of having a well-defined *sum-type* or a *disjoint union* &#x2013; the traditional and well-understood way mathematics deals with &ldquo;distinct possibilities&rdquo;.
 
 This is actually a matter of principle. One obviously can partition a set further into subsets using *such-that* clauses with *predicates* and logical operators. `forall x, except x=0` is *easy* but stupid. Just as `forall x, except -1`, which means something else.
 
