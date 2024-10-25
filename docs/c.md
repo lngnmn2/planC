@@ -1,14 +1,18 @@
-- [No idea how bad everything is](#org6ed52a5)
+- [No idea how bad everything is](#org17c69c3)
 
 
 
-<a id="org6ed52a5"></a>
+<a id="org17c69c3"></a>
 
 # No idea how bad everything is
 
 In the preface to the Second Edition of the classic The C Programming Language book K&R clearly stated that &ldquo;C deals with the same sort of objects that most computers do, namely characters, numbers and addresses&rdquo;.
 
 Everything was more or less OK back in the 1988. The smallest addressable chunk of memory was a byte. Characters were fit into a single byte. There were simple common (informal) *easy* rules for using `0` or `-1` as *markers* or for signalling an error. Life was seemingly easy.
+
+&ldquo;Simple&rdquo; *null-terminated strings of bytes* everywhere, strings are *arrays*, not lists. Clever bits of special syntax for arrays access and modification. Everything was *easy*. Machine types as *bounded* sub-sets of integers and reals. Characters (and almost everything else) were just a set of binary numbers (which represent them), including any enums themselves.
+
+Everything has been programmed in terms of representation, which very little of a proper abstraction (just like Lisp guys did with `car` and `cdr`). Proper ADTs (as by Barbara Liskov) were rare and even frowned upon. *The C programmers knew the representation of everything and the special value for nothing* (me).
 
 Mathematicians would already be alarmed for using an ordinary member of a set as a special case, instead of having a well-defined *sum-type* or a *disjoint union* &#x2013; the traditional and well-understood way mathematics deals with &ldquo;distinct possibilities&rdquo;.
 
