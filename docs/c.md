@@ -1,8 +1,8 @@
-- [No idea how bad everything is](#org45a4564)
+- [No idea how bad everything is](#org9f18c2b)
 
 
 
-<a id="org45a4564"></a>
+<a id="org9f18c2b"></a>
 
 # No idea how bad everything is
 
@@ -12,7 +12,11 @@ Everything was more or less OK back in the 1988. The smallest addressable chunk 
 
 &ldquo;Simple&rdquo; *null-terminated strings of bytes* everywhere, strings are *arrays*, not lists. Clever bits of special syntax for arrays access and modification. Everything was *easy*. Machine types as *bounded* sub-sets of integers and reals. Characters (and almost everything else) were just a set of binary numbers (which represent them), including any enums themselves.
 
-Everything has been programmed in terms of representation, which very little of a proper abstraction (just like Lisp guys did with `car` and `cdr`). Proper ADTs (as by Barbara Liskov) were rare and even frowned upon. *The C programmers knew the representation of everything and the special value for nothing* (me).
+Every single machine type has fixes-size values, so *offsets* (implicit in any array, an even more general notion than a pointer, which is just an offset in bytes) were literally everywhere. *Struts* were merely an offset- or size-based packaging of machine types (in this particular memory location), with associated names and special a syntax for accessing the elements. There was a special syntax for accessing a strutted data in memory *by value* and *by reference*.
+
+Everything has been programmed in terms of representation, which very little of a proper abstraction (just like Lisp guys did with `car` and `cdr`). Proper ADTs (as by Barbara Liskov) were rare and even frowned upon. *The C programmers knew the representation of everything and the special value for nothing* (me). Allocation and freeing was manual, based on representation/implementation details.
+
+All this has been possible precisely because of two fundamental underlying assumptions: the processes are totally isolated from each other &#x2013; no one else could have access to its data segments. No notion of a sharing and multi-treading whatsoever, global variables all over the place, and basically no pointer invalidation, so people do `reallocs` of whole arrays fearlessly. And she ruined everything.
 
 Mathematicians would have already been alarmed about using an ordinary member of a set as a special case, instead of having a well-defined *sum-type* or a *disjoint union* &#x2013; the traditional and well-understood way mathematics deals with &ldquo;distinct possibilities&rdquo;.
 
