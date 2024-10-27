@@ -1,0 +1,77 @@
+#+TITLE: Esoteric teachings
+#+AUTHOR: <lngnmn2@yahoo.com>
+
+* many-to-one includes one-to-one
+
+* one-to-many is NOT a function
+There is always only one "outgoing arrow" in a proper /mapping/.
+
+* One
+What is the /meaning/ (what does it mean) that, according to lengthy definitions of the Category theory, there is an arrow (a function) from a "singleton set" to every element of /any other/ set, including itself.
+
+The number /one/ is special. It, denotes the universal notion which is the same as "there exists a".
+
+As our perception, awareness and attention /selects/ a particular "object", it is one-of-many (one-from-many). One is exactly how many.
+
+The abstract notion that an arow from a singleton set "selects" an element in another set, is the same as an external observer observes (and selects) this very element.
+
+A singleton set could be constructed from every element of any set.
+
+* Introduction and elimination
+Not arbitrary. Constructor "introduces",  structural pattern-matching "eliminates". Or a bunch of individual "getters".
+
+* Duality means nothing
+The abstract notion of "reversing of all arrows" does not produce "the same" structure.
+
+It produces a similarly looking structure (to an external observer) which has a similar shape.
+
+* Opposites
+Yes, indeed ~x,y~ is an opposite of ~x|y~. The ~NOT~ operator is trivially applicable.
+
+However, ~x,y != y,x~ while ~x|y == y|x~. Same "information", differnt structure.
+
+Mathematicians have abstracted away these subtle differences. This is a mistake, it yields /empty/ abstractions.
+
+Any /representation/ (actual strucure) implies an implicit (emergent) ordering, so the pair has to be ordered.
+
+Some structures are symmetric, others aren't. This universal notion also cannot be just abstracted away and ignored.
+
+** "together" versus "apart"
+A proper use of a language is to describe What Is, and to find out unabigous words to form a valid associations. This is not only math, it is a proper philosohy too.
+We have to carefully watch out for "overloading" of terms and switch contexts only when they are "proper subsets" (so zomming in and out is valid).
+
+The most universal context (or a Universal set) is "What Is". Whatever is not a proper subset of it (something that isn't is added) is technically /bullshit/.
+
+"Together" means "parts of the same structure", which implies "moves together", among other things.
+
+"Apart" has lots of meanings, from /"partitioned"/ to /"unrelated"/.
+
+The proper notion is of /locality/ or /proximity/ from phisics (which describes What Is).
+The universal law of "the square of a distance" implies that "unrelated" means too distant, to far away.
+
+Unrelated does NOT mean unobserved. It has nothing to do with whether related or not.
+
+* Coproduct is not the same as Product
+What looks similar (alike to an observer) is actually completely different.
+
+** An /ordered pair/ (defines or introduces a structure)
+A Product "puts together in an actual structure".
+- A /type-constructor/ requires two (can be partially applied)
+- Introduction -- a /data-constructor/ of arity two.
+- Elimination -- Two distinct patterns to match /on a STRUCTURE/.
+
+Both (two) "outgoing arrows" (pair of selectors) are actualized
+
+** A /tagged disjoint union/ (defines or introduces potential outcomes)
+A Coproduct "is either one or another -- one "slot". 
+- A /type-constructor/ requires two (can be partially applied)
+  This is where the similarity ends.
+- Introduction -- a data-constructor of arity one.
+- Elimination -- two distinct patterns to match /on a TAG/.
+  Apparent similarity here
+
+One (and only one) "outgoing arrow" (selector) is actualized
+
+Two potential paths, one actual 
+(one-to-many is only potential, one-to-one is only possible actual)
+
