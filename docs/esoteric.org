@@ -50,11 +50,20 @@ Logic, however is abstract (just right!). In reality /everything has its structu
 
 Yes, indeed ~x,y~ is an opposite of ~x|y~. The ~NOT~ operator is trivially applicable. These are, however, principally different structures.
 
- ~x,y != y,x~ while ~x|y == y|x~. Same "information", different structure.
+ ~x,y != y,x~ while ~x|y == y|x~. Same "information", different structure. And not even the same information -- it could be ~x|_~.
 
-Mathematicians have abstracted away these subtle differences. This is a mistake, it yields /empty/ abstractions.
+Actually, $x|_, \forall x$, which means ~x~ or /everything else/, which corresponds to an /introduction of a logical disjunction/.
 
-Any /representation/ (actual strucure) implies an implicit (emergent) ordering, so the pair has to be ordered.
+Every single entity is implicitly /partitioned/ by from everything else, by its structure or via membrane, or by just being a distinct sub-process.
+
+Mathematicians have abstracted away these subtle differences. This is a mistake, it yields /empty/, too general to be applicable, abstractions.
+
+Yes, yes, pure mathematicians are not concerned with such "irrelevant redundancy" like existence, /applicability/ or representation of their "objects". So we are not so much concerned with pure mathematicians.
+
+** Isomorphic structures
+Any /representation/ (actual structure) implies an implicit (emergent) ordering, so the pair has to be ordered, ~(a,b) != (b,a)~ -- representations are different.
+
+The question where ~((a, b), c) = (a, (b, c))~ -- same information, different structure (representation) -- is a true assertion is a very subtle one. Considering /information/ alone, these two representations are /isomorphic/ to each other, and thus /equivalent/, or even /equal/, depending on a context.
 
 Some structures are symmetric, others aren't. This universal notion also cannot be just abstracted away and ignored.
 

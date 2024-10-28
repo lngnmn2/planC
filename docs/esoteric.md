@@ -1,30 +1,31 @@
-- [many-to-one includes one-to-one](#org9602c54)
-- [one-to-many is NOT a function](#orgcbb1148)
-- [One](#org505d4be)
-- [Introduction and elimination](#org8ff28f3)
-- [Duality means nothing](#org8d635e5)
-- [Logic](#org9876323)
-- [Opposites](#orgdeb1ef0)
-  - [&ldquo;together&rdquo; versus &ldquo;apart&rdquo;](#orgaab6788)
-- [Coproduct is not the same as Product](#orgad5b55c)
-  - [An *ordered pair* (defines or introduces a structure)](#orgd063954)
-  - [A *tagged disjoint union* (defines or introduces potential outcomes)](#orgbf5d365)
+- [many-to-one includes one-to-one](#orgbe73cd4)
+- [one-to-many is NOT a function](#org8dd4e2a)
+- [One](#org404f455)
+- [Introduction and elimination](#org7dbfa12)
+- [Duality means nothing](#orgabd6fc9)
+- [Logic](#org198929f)
+- [Opposites](#orgea78570)
+  - [Isomorphic structures](#org71059ef)
+  - [&ldquo;together&rdquo; versus &ldquo;apart&rdquo;](#orgb9581f0)
+- [Coproduct is not the same as Product](#org76af3b5)
+  - [An *ordered pair* (defines or introduces a structure)](#orgc458488)
+  - [A *tagged disjoint union* (defines or introduces potential outcomes)](#orgba25491)
 
 
 
-<a id="org9602c54"></a>
+<a id="orgbe73cd4"></a>
 
 # many-to-one includes one-to-one
 
 
-<a id="orgcbb1148"></a>
+<a id="org8dd4e2a"></a>
 
 # one-to-many is NOT a function
 
 There is always only one &ldquo;outgoing arrow&rdquo; in a proper *mapping*.
 
 
-<a id="org505d4be"></a>
+<a id="org404f455"></a>
 
 # One
 
@@ -39,14 +40,14 @@ The abstract notion that an arow from a singleton set &ldquo;selects&rdquo; an e
 A singleton set could be constructed from every element of any set.
 
 
-<a id="org8ff28f3"></a>
+<a id="org7dbfa12"></a>
 
 # Introduction and elimination
 
 Not arbitrary. Constructor &ldquo;introduces&rdquo;, structural pattern-matching &ldquo;eliminates&rdquo;. Or a bunch of individual &ldquo;getters&rdquo;.
 
 
-<a id="org8d635e5"></a>
+<a id="orgabd6fc9"></a>
 
 # Duality means nothing
 
@@ -59,7 +60,7 @@ The &ldquo;same information, different structure meme&rdquo; is misleading there
 The postulated *duality* (based on diagrams) of a *Product* and a *Sum* (Coproduct) is an *empty abstract notion*.
 
 
-<a id="org9876323"></a>
+<a id="org198929f"></a>
 
 # Logic
 
@@ -76,7 +77,7 @@ there are 3 immediate *implications*: $$A \and B \Rightarrow A$$ $$A \and B \Rig
 `OR` is &ldquo;like `+`&rdquo; too, but for a different reason. It *&ldquo;binds&rdquo;* together (captures) its arguments, and the which one comes first is irrelevant.
 
 
-<a id="orgdeb1ef0"></a>
+<a id="orgea78570"></a>
 
 # Opposites
 
@@ -84,16 +85,29 @@ Logic, however is abstract (just right!). In reality *everything has its structu
 
 Yes, indeed `x,y` is an opposite of `x|y`. The `NOT` operator is trivially applicable. These are, however, principally different structures.
 
-`x,y != y,x` while `x|y == y|x`. Same &ldquo;information&rdquo;, different structure.
+`x,y != y,x` while `x|y == y|x`. Same &ldquo;information&rdquo;, different structure. And not even the same information &#x2013; it could be `x|_`.
 
-Mathematicians have abstracted away these subtle differences. This is a mistake, it yields *empty* abstractions.
+Actually, $x|_, \forall x$, which means `x` or *everything else*, which corresponds to an *introduction of a logical disjunction*.
 
-Any *representation* (actual strucure) implies an implicit (emergent) ordering, so the pair has to be ordered.
+Every single entity is implicitly *partitioned* by from everything else, by its structure or via membrane, or by just being a distinct sub-process.
+
+Mathematicians have abstracted away these subtle differences. This is a mistake, it yields *empty*, too general to be applicable, abstractions.
+
+Yes, yes, pure mathematicians are not concerned with such &ldquo;irrelevant redundancy&rdquo; like existence, *applicability* or representation of their &ldquo;objects&rdquo;. So we are not so much concerned with pure mathematicians.
+
+
+<a id="org71059ef"></a>
+
+## Isomorphic structures
+
+Any *representation* (actual structure) implies an implicit (emergent) ordering, so the pair has to be ordered, `(a,b) != (b,a)` &#x2013; representations are different.
+
+The question where `((a, b), c) = (a, (b, c))` &#x2013; same information, different structure (representation) &#x2013; is a true assertion is a very subtle one. Considering *information* alone, these two representations are *isomorphic* to each other, and thus *equivalent*, or even *equal*, depending on a context.
 
 Some structures are symmetric, others aren&rsquo;t. This universal notion also cannot be just abstracted away and ignored.
 
 
-<a id="orgaab6788"></a>
+<a id="orgb9581f0"></a>
 
 ## &ldquo;together&rdquo; versus &ldquo;apart&rdquo;
 
@@ -110,14 +124,14 @@ The proper notion is of *locality* or *proximity* from phisics (which describes 
 Unrelated does NOT mean unobserved. It has nothing to do with whether related or not.
 
 
-<a id="orgad5b55c"></a>
+<a id="org76af3b5"></a>
 
 # Coproduct is not the same as Product
 
 What looks similar (alike to an observer) is actually completely different.
 
 
-<a id="orgd063954"></a>
+<a id="orgc458488"></a>
 
 ## An *ordered pair* (defines or introduces a structure)
 
@@ -130,7 +144,7 @@ A Product &ldquo;puts together in an actual structure&rdquo;.
 Both (two) &ldquo;outgoing arrows&rdquo; (pair of selectors) are actualized
 
 
-<a id="orgbf5d365"></a>
+<a id="orgba25491"></a>
 
 ## A *tagged disjoint union* (defines or introduces potential outcomes)
 
