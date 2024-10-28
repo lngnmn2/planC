@@ -54,7 +54,7 @@ Yes, indeed ~x,y~ is an opposite of ~x|y~. The ~NOT~ operator is trivially appli
 
 Actually, $x|_, \forall x$, which means ~x~ or /everything else/, which corresponds to an /introduction of a logical disjunction/.
 
-Every single entity is implicitly /partitioned/ by from everything else, by its structure or via membrane, or by just being a distinct sub-process.
+Every single entity is implicitly /partitioned/ from everything else (not just for an external observer, but actually) by its structure (like molecules) or via a membrane (like individual cells), or by just being a distinct sub-process (like atoms).
 
 Mathematicians have abstracted away these subtle differences. This is a mistake, it yields /empty/, too general to be applicable, abstractions.
 
