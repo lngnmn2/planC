@@ -21,14 +21,36 @@ A singleton set could be constructed from every element of any set.
 Not arbitrary. Constructor "introduces",  structural pattern-matching "eliminates". Or a bunch of individual "getters".
 
 * Duality means nothing
-The abstract notion of "reversing of all arrows" does not produce "the same" structure.
+The abstract notion of "reversing of all arrows" does not yield "the same" structure.
 
 It produces a similarly looking structure (to an external observer) which has a similar shape.
 
-* Opposites
-Yes, indeed ~x,y~ is an opposite of ~x|y~. The ~NOT~ operator is trivially applicable.
+The "same information, different structure meme" is misleading there.
 
-However, ~x,y != y,x~ while ~x|y == y|x~. Same "information", differnt structure.
+The postulated /duality/ (based on diagrams) of a /Product/ and a /Sum/ (Coproduct) is an /empty abstract notion/.
+
+* Logic
+In logic ~AND~ (and ~OR~) is "symmetric", just like ~+~. -- rotate an observer around the expression and you will see /why/.
+
+$$A \and B = B \and A$$
+
+There is no notion of /"which one comes first"/, because both ~+~ and ~AND~ capture the universal notion of "putting together".
+
+So when we /curry and partially apply/ corresponding /binary /operators/, the order of arguments is irrelevant (unlike subtraction).
+
+there are 3 immediate /implications/:
+$$A \and B \Rightarrow A$$
+$$A \and B \Rightarrow B$$
+$$A \and B \Rightarrow B \and A$$
+
+~OR~ is "like ~+~" too, but for a different reason. It /"binds"/ together (captures) its arguments, and the which one comes first is irrelevant.
+
+* Opposites
+Logic, however is abstract (just right!). In reality /everything has its structure/, which logic miraculously abstracts away.
+
+Yes, indeed ~x,y~ is an opposite of ~x|y~. The ~NOT~ operator is trivially applicable. These are, however, principally different structures.
+
+ ~x,y != y,x~ while ~x|y == y|x~. Same "information", different structure.
 
 Mathematicians have abstracted away these subtle differences. This is a mistake, it yields /empty/ abstractions.
 

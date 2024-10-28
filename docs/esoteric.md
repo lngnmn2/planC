@@ -1,29 +1,30 @@
-- [many-to-one includes one-to-one](#org62b2081)
-- [one-to-many is NOT a function](#orgc6ef128)
-- [One](#org65ad791)
-- [Introduction and elimination](#org318e617)
-- [Duality means nothing](#org23fb4a0)
-- [Opposites](#org5b513b5)
-  - [&ldquo;together&rdquo; versus &ldquo;apart&rdquo;](#org8d38f5c)
-- [Coproduct is not the same as Product](#orgbe9e533)
-  - [An *ordered pair* (defines or introduces a structure)](#orge40571b)
-  - [A *tagged disjoint union* (defines or introduces potential outcomes)](#orgc8ecee9)
+- [many-to-one includes one-to-one](#org9602c54)
+- [one-to-many is NOT a function](#orgcbb1148)
+- [One](#org505d4be)
+- [Introduction and elimination](#org8ff28f3)
+- [Duality means nothing](#org8d635e5)
+- [Logic](#org9876323)
+- [Opposites](#orgdeb1ef0)
+  - [&ldquo;together&rdquo; versus &ldquo;apart&rdquo;](#orgaab6788)
+- [Coproduct is not the same as Product](#orgad5b55c)
+  - [An *ordered pair* (defines or introduces a structure)](#orgd063954)
+  - [A *tagged disjoint union* (defines or introduces potential outcomes)](#orgbf5d365)
 
 
 
-<a id="org62b2081"></a>
+<a id="org9602c54"></a>
 
 # many-to-one includes one-to-one
 
 
-<a id="orgc6ef128"></a>
+<a id="orgcbb1148"></a>
 
 # one-to-many is NOT a function
 
 There is always only one &ldquo;outgoing arrow&rdquo; in a proper *mapping*.
 
 
-<a id="org65ad791"></a>
+<a id="org505d4be"></a>
 
 # One
 
@@ -38,29 +39,52 @@ The abstract notion that an arow from a singleton set &ldquo;selects&rdquo; an e
 A singleton set could be constructed from every element of any set.
 
 
-<a id="org318e617"></a>
+<a id="org8ff28f3"></a>
 
 # Introduction and elimination
 
 Not arbitrary. Constructor &ldquo;introduces&rdquo;, structural pattern-matching &ldquo;eliminates&rdquo;. Or a bunch of individual &ldquo;getters&rdquo;.
 
 
-<a id="org23fb4a0"></a>
+<a id="org8d635e5"></a>
 
 # Duality means nothing
 
-The abstract notion of &ldquo;reversing of all arrows&rdquo; does not produce &ldquo;the same&rdquo; structure.
+The abstract notion of &ldquo;reversing of all arrows&rdquo; does not yield &ldquo;the same&rdquo; structure.
 
 It produces a similarly looking structure (to an external observer) which has a similar shape.
 
+The &ldquo;same information, different structure meme&rdquo; is misleading there.
 
-<a id="org5b513b5"></a>
+The postulated *duality* (based on diagrams) of a *Product* and a *Sum* (Coproduct) is an *empty abstract notion*.
+
+
+<a id="org9876323"></a>
+
+# Logic
+
+In logic `AND` (and `OR`) is &ldquo;symmetric&rdquo;, just like `+`. &#x2013; rotate an observer around the expression and you will see *why*.
+
+$$A \and B = B \and A$$
+
+There is no notion of *&ldquo;which one comes first&rdquo;*, because both `+` and `AND` capture the universal notion of &ldquo;putting together&rdquo;.
+
+So when we *curry and partially apply* corresponding *binary /operators*, the order of arguments is irrelevant (unlike subtraction).
+
+there are 3 immediate *implications*: $$A \and B \Rightarrow A$$ $$A \and B \Rightarrow B$$ $$A \and B \Rightarrow B \and A$$
+
+`OR` is &ldquo;like `+`&rdquo; too, but for a different reason. It *&ldquo;binds&rdquo;* together (captures) its arguments, and the which one comes first is irrelevant.
+
+
+<a id="orgdeb1ef0"></a>
 
 # Opposites
 
-Yes, indeed `x,y` is an opposite of `x|y`. The `NOT` operator is trivially applicable.
+Logic, however is abstract (just right!). In reality *everything has its structure*, which logic miraculously abstracts away.
 
-However, `x,y != y,x` while `x|y == y|x`. Same &ldquo;information&rdquo;, differnt structure.
+Yes, indeed `x,y` is an opposite of `x|y`. The `NOT` operator is trivially applicable. These are, however, principally different structures.
+
+`x,y != y,x` while `x|y == y|x`. Same &ldquo;information&rdquo;, different structure.
 
 Mathematicians have abstracted away these subtle differences. This is a mistake, it yields *empty* abstractions.
 
@@ -69,7 +93,7 @@ Any *representation* (actual strucure) implies an implicit (emergent) ordering, 
 Some structures are symmetric, others aren&rsquo;t. This universal notion also cannot be just abstracted away and ignored.
 
 
-<a id="org8d38f5c"></a>
+<a id="orgaab6788"></a>
 
 ## &ldquo;together&rdquo; versus &ldquo;apart&rdquo;
 
@@ -86,14 +110,14 @@ The proper notion is of *locality* or *proximity* from phisics (which describes 
 Unrelated does NOT mean unobserved. It has nothing to do with whether related or not.
 
 
-<a id="orgbe9e533"></a>
+<a id="orgad5b55c"></a>
 
 # Coproduct is not the same as Product
 
 What looks similar (alike to an observer) is actually completely different.
 
 
-<a id="orge40571b"></a>
+<a id="orgd063954"></a>
 
 ## An *ordered pair* (defines or introduces a structure)
 
@@ -106,7 +130,7 @@ A Product &ldquo;puts together in an actual structure&rdquo;.
 Both (two) &ldquo;outgoing arrows&rdquo; (pair of selectors) are actualized
 
 
-<a id="orgc8ecee9"></a>
+<a id="orgbf5d365"></a>
 
 ## A *tagged disjoint union* (defines or introduces potential outcomes)
 
