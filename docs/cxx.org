@@ -1,0 +1,34 @@
+#+TITLE: C++
+
+* No idea how big it is
+
+Just as Stroustrup (originally an incompetent and ignorant narcissistic asshole) used to brag -- C++ is literally everywhere.
+
+This, however, does not mean that this is a good language, and especially that everything has been done "just right". Not even close.
+
+Advanced codebases like LLVM and Clang (with all the libraries), which Apple and Google are using in production, so they "invest" a lot of costly human resources in it.
+
+The most widely used software would easily be ~libstdc++.so~ (with ~libm.so~ and ~libc.so~, of course).
+
+Most of the language runtimes, notably the /JVM/, all actually used web browsers, most of the PC games,
+
+The classic languages, however (both the LISP and the ML families), are using C to implement the language runtimes and parts of standard libraries. Neither objects nor "++" is required.
+
+Almost everything from Google, Microsoft and Facebook, including their internal codebases.
+
+* Programming in terms of implementations
+This is "the C curse".
+
+Machine types instead of proper abstractions.
+
+* Separation of concerns, delegation to cope with complexity
+In theory, recompiling the old code with a new compiler against the stable interfaces of libc++ would yield not just efficiency and performance gains but even support of new processor architectures.
+
+Google learned this lesson the hard way and now it uses mainstream Clang.
+
+
+Not a coincidence that a standard library comes with the compiler
+
+Hardware primitives, support for concurrency (atomics, fences, locks), etc.
+
+* Everything should go into the library code

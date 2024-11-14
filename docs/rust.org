@@ -1,0 +1,7 @@
+#+TITLE: Rust
+
+* Things done right
+
+A bold attempt to put /proper (abstract) interfaces/ back as the main principle of programming.
+
+Clear separation of implementations (in the distinct ~impl~ blocks)
