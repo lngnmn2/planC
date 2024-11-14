@@ -1,15 +1,16 @@
-- [No idea how big it is](#org3590ae3)
-- [The wrong way](#orgd2f7768)
-- [Expectations vs. reality](#org40eeb92)
-- [Nobody ever got fired for choosing C++](#org20acc62)
-- [Programming in terms of implementations](#org412de44)
-- [Separation of concerns, delegation to cope with complexity](#orgd2e2008)
-- [Everything should go into the library code](#orgd914373)
-- [Modern ideas](#orgfebfd33)
+- [No idea how big it is](#orgb8e5033)
+- [The wrong way](#orgaa39a7c)
+- [Platonism](#orgcdcdd3d)
+- [Expectations vs. reality](#org326b645)
+- [Nobody ever got fired for choosing C++](#orgefdb309)
+- [Programming in terms of implementations](#org41c40ee)
+- [Separation of concerns, delegation to cope with complexity](#org484de57)
+- [Everything should go into the library code](#org586c89a)
+- [Modern ideas](#org6452388)
 
 
 
-<a id="org3590ae3"></a>
+<a id="orgb8e5033"></a>
 
 # No idea how big it is
 
@@ -28,7 +29,7 @@ The classic languages, however (both the LISP and the ML families), are using C 
 Almost everything from Google, Microsoft and Facebook, including their internal codebases.
 
 
-<a id="orgd2f7768"></a>
+<a id="orgaa39a7c"></a>
 
 # The wrong way
 
@@ -43,7 +44,18 @@ By the way, exactly the same fundamental restrictions are necessary for any appl
 People who cannot understand these simple facts probably should not design any programming languages.
 
 
-<a id="org40eeb92"></a>
+<a id="orgcdcdd3d"></a>
+
+# Platonism
+
+Relying on a wrong (too abstract and too vague) philosophy was the another cause of our suffering. Not everything in reality could be defined (modeled) as a part of a single rigid hierarchy. Not everything is an object which is an instance of a particular class. There are more subtle notions out there which properly captures some aspects of reality. The composition of &ldquo;observable behaviors&rdquo; (and so-called &ldquo;duck-typing&rdquo; in general) are such a subtle notions. Some molecular structures, and even individual ions and isotopes behave in such a way in some particular contexts.
+
+Platonism, being a set of naive oversimplifications and memes, cannot be used as the basis of anything actual and real (like programming). The actual basis of everything is not an object, but a *process*, not a &ldquo;class&rdquo; but a &ldquo;trait&rdquo; or a resulting behavior.
+
+But who we are to tell Stroustrup what to know?
+
+
+<a id="org326b645"></a>
 
 # Expectations vs. reality
 
@@ -60,7 +72,7 @@ Add to this the fact that most of C++ code rely on a leaky abstractions, shared 
 The &ldquo;secret&rdquo; is that time (amount of man-hours) and effort spent on coding and debugging is enormous and the whole process is grossly wasteful.
 
 
-<a id="org20acc62"></a>
+<a id="orgefdb309"></a>
 
 # Nobody ever got fired for choosing C++
 
@@ -73,7 +85,7 @@ The result, however, is spectacular, similar to the achievements of modern appli
 My *Gentoo* builds work too.
 
 
-<a id="org412de44"></a>
+<a id="org41c40ee"></a>
 
 # Programming in terms of implementations
 
@@ -82,7 +94,7 @@ This is &ldquo;the C curse&rdquo;.
 Machine types instead of proper abstractions.
 
 
-<a id="orgd2e2008"></a>
+<a id="org484de57"></a>
 
 # Separation of concerns, delegation to cope with complexity
 
@@ -95,7 +107,7 @@ Not a coincidence that a standard library comes with the compiler
 Hardware primitives, support for concurrency (atomics, fences, locks), etc.
 
 
-<a id="orgd914373"></a>
+<a id="org586c89a"></a>
 
 # Everything should go into the library code
 
@@ -104,7 +116,7 @@ There is a general principle which states that a well-designed language has to b
 `C++` introduced (due to ignorance) the fundamental and unsolvable in principle complexity of mixing of *mutation of objects with have a shared state*, so endless complications (over naive simplicity and cleverness of C) followed.
 
 
-<a id="orgfebfd33"></a>
+<a id="org6452388"></a>
 
 # Modern ideas
 
