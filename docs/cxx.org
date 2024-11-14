@@ -27,7 +27,7 @@ The problem, however, is that everything else -- an /imperative/ mix of OOP and 
 
 Add to this the fact that most of C++ code rely on a leaky abstractions, shared mutable state and threading under a preemptive multitasking, and realize that it is a miracle that everything "works" somehow.
 
-The "secret" is that time (amount of man-hours) and effort spent on coding and debugging is enormously wasteful.
+The "secret" is that time (amount of man-hours) and effort spent on coding and debugging is enormous and the whole process is grossly wasteful.
 
 * Nobody ever got fired for choosing C++
 Because the language is such a crap, literally millions of a top-tier, very expensive man-hours has been spend on compilers and tooling. The whole codebases (LLVM) has been created to systematically manage complexity, idiosyncrasies and nasty corner cases of C++.
