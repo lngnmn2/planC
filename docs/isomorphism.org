@@ -1,0 +1,35 @@
+#+TITLE: Beyond the Curry-Howard Isomorphism
+
+This is the most deep and subtle subject. It uncovers something /truly universal/.
+
+The abstract "duality" is bullshit, while the Gerhard Gentzen's principle that /the logical terms come in pairs -- an "introduction" and a corresponding "elimination"/ is a big deal, really.
+
+In programming this would corresponds to the similar /naturally emerging/ "patterns" among /Algebraic Data Types/. There is (or at least must be) /always/ a "construction" -- calling of a "constructor" (an "introduction") and "the use site" (an "elimination"), be it via pattern matching, calling selectors, or calling a function.
+
+This, of course, goes way deeper. Any properly captured concept of a human mind has to have its "use site" (elimination). This is subtle.
+
+In the /evolved/ molecular biology, however, everything is more straightforward -- everything produced with expenditure of energy (by an enzyme) has its "use". An enzyme itself took millions of years to evolve to be "just right" to properly catalyze a biochemical reaction, which otherwise would not occur (requires more energy).
+
+Again, there is something /universal/ has been /partially/ captured here, unlike abstract category theoretic bullshit about abstract duals. Biology "constructs" to be "used". Minds of external observers /capture and generalize/, and thus partially capture some of the universal principles.
+
+The Curry-Howard Isomorphism captures the notion that "we are watching the same mountain from different angles", while the "mountain" is the /emergent/ processes /constrained/ by the "physical laws" and emerging from them /causality/. And, of course, /everything/ in the Universe is a /process/ (and has a "graph" which caused it).
+
+Okay, it is not a random coincidence that just ~3~ of Algebraic Data Types are enough for everything. The /universal notions/ which we call ~AND~, ~OR~ and ~Step~ (~,~ a /"product type"/ ~|~, a /"sum type"/, ~->~, an /"arrow type"/ or a "step") are the most fundamental and truly Universal.
+
+Yes, there are /subtleties/, like /"AND THEN"/ and /"AND ALSO"/, which is not a /meaningfully/ dual to "OR ELSE". "Forks" ("ORs") are always /potential/ (only one "step" will be taken), while "joins" (ANDs) are always /actual structures or being actually present in a particular locality (at an appropriate distance)/.
+
+One more time: the product-types, the sum-types and the function-types are enough to properly capture and /represent/ literally everything. There are corresponding patterns in the classic algorithm charting techniques, which are enough for drawing /any/ algorithm (the proper /short-circuiting/ branching, which corresponds to /never/ taking both steps, requires /a lazy evaluation/, while looping is just a /spiral of recursion/ -- yes, yes, it is all that fundamental and complementary interrelated).
+
+At a higher level, there are "partitions" -- /abstract interfaces/, which are named sets of these algebraic types.
+
+/Type-level parameterization/, /Type-Classes (with application type-constructors)/ or /Traits/, which, by the way, give rise to particular /capabilities/, can also be traced back to system biology and to /What Is/.
+
+And for each "introduction" (definition) there has to be an "elimination" (a use-site) with structural patterns-matching (as in molecular biology) or a transformation by an /enzyme/.
+
+All the biological "pathways" are just "nested" (chained) procedures. Everything is /data/ -- actual molecular structures (there is no hidden state, a "counter" or even a "number") and everything happens as in logical in the Modus Ponens -- once all the /necessary and sufficient/ conditions meet (an enzyme is fully "filled") the transformation (the reaction) occur.
+
+And the "runtime" is the particular locality (with its particular set of constraints) of the whole universe (a localized sub-process), of course.
+
+The old-school classic mostly-functional languages (both the LISP and the ML families) were /intuitively/ onto something. And yes, any non-bullshit mathematics just properly captures, generalizes and abstracts away some fundamental aspects of /What Is/.
+
+So, the /"design for the use-site"/ mantra is universally meaningful.
