@@ -1,0 +1,779 @@
+#+TITLE: Programming principles and rules
+#+AUTHOR: <schiptsov@gmail.com>
+#+STARTUP: indent fold overview
+
+The captured /generalized principles/ apply to getting /any/ complex system to work.
+
+Complexity has an emergent architecture (hierarchical layers of "closures").
+
+Not surprisingly, the main principle to cope with and to /reduce/ complexity is
+/modularization/ (and /orthogonality/) in all possible forms - functions, interfaces
+(duck-typing), type-classes, traits, modules and NOT classes with a rigid
+inheritance (breaks orthogonality, but is OK for simplest schemes).
+
+There are universal patterns in everything, which has been partially captured in
+the early /flow-chart/ techniques, and /graph-reduction/ as an implementation
+of universal abstract machines called /interpreters/, how /logic/ is being
+implemented.
+
+The Curry-Howard meme too /partially captures/ the same universal pattern at a
+different level of abstraction - it is all dots between /arrows/ in a directed acyclic graph.
+
+Any ordered sequence (DNA, proteins, enzymes) is also a "bunch of connected arrows", of
+course, and  every /tree-like structure/. The early LISP guys have intuitively realized and tried
+to capture this universality.
+
+Remember, that almost everything could be reduced to a bunch of arrows between
+dots in a acyclic "fork-free" graph.
+
+The "forks" are not part of this graph, they are parts of the one superimposed
+on top of it. Potential paths (branches) are conditioned by possible outcomes,
+of which only a single one will eventually happen. This is why there is no "forks" in
+graphs of Causality, only in superimposed graphs of Potentiality.
+
+In short, these are different levels of abstraction. Potentiality does not
+exist. Causality does.
+
+The essence of abstraction is /capturing only information/ that is relevant in a given /context/, and forgetting information that is irrelevant in that context.
+
+Decomposition of a problem exposes a /conceptual structure/. It allows us to break a program into related parts that are reasonably self-contained, and to /compose/ the whole from these parts.
+
+There’s a very good chance that you’re going to give up before you get to _____ —
+not because it’s too hard, but because /you aren’t accustomed to forcing yourself
+to do things/. You are not in control of your will (have no self-discipline).
+
+Self-discipline is not forcing yourself "with gritting your teeth". It is a conscious
+decision, a resolve together with allocated resources. The proper attitude to running is
+that when it is time to run you just go and run /without even a single thought
+or a doubt/.
+
+This does not mean that you have to run when it rains. It means that you have no
+question whether you should run or not when the weather is good.
+
+Not a single question about what you have chose to practice, about your craft.
+
+* For people to understand
+/"I want the program written down as I can understand it, I want it writtern down as I would like to explain it to someone"/.
+
+Indeed, what we do is /structuring an information/, which is similar to appied math, so we have to understand everything what we do and /why/.
+
+And the most important person we want to understand everything clearly is your own self /after a few months/ or a whole year.
+
+The closely related notion is to /model/ (with Sets and logic) right in Haskell/Ocaml or a similar well-crafted language. 
+* Zooming in and out through the layers
+All non-bullshit properly generalized concepts can be traced back to /What Is/ (to the frequently observed phenomena they has been geralized from). The ability to /zoom back and forth/ between the concepts and the actual aspects of the shared environment is what distinguish an intelligent mind.
+
+This is one of the most ancient principles, which goes back to at least /Upanishads/ and early Buddhism. Being "grounded into what is real" is a universal "safety net" and /THE/ most fundamental principle of all.
+* Layers of DSLs
+We have to program in DSLs, while each DSL form a /layer/ which can be understood independently, all by itself.
+
+These layers should be /nested/ and to have /scooping rules/, where the "outer" bindings are /shadowed/, and the "inner" ones are /local and invisible/.
+
+In short, a /layered DSL/ implementation could only call the one layer down (and "orthigonal" standard libraries).
+
+The most remarkable thing is that /the principles behind individual ADTs are applicable to whole DSLs/.
+
+This is how the whole languages such as ~Haskell~ are implemented. ~TeX~, ~Emacs~ and even ~X11~ (low-level) has been made in this way.
+* Solo programmers
+Only task-assigned replaceable coding drones are lucky for don't have to consider (and
+to zoom between) all the layers of a problem - from abstract concepts of the
+problem domain to the language primitives used by an implementation of every single component of a program.
+
+/Solo programmers/ or system designers have no such luck. This is why we are so /slow/.
+* Biology
+A warm-up is not optional, it is priming of a required biochemical state (of the
+Mind).
+
+/It takes developers 23 minutes of uninterrupted focus until they hit their “flow” state -- the stage in which they do actual coding/.
+
+Slack messages, fragmented meeting schedules and the need to be "available"
+online is hampering the possible productive gains. (async communication only).
+
+Asynchronous written communication - mailing lists, Usenet, etc.
+
+* Smallest complete steps
+"Compose a program in smallest complete steps, deciding each time as little as
+possible".
+
+We always start with incomplete, superficial and naive knowledge of the problem,
+so as the problem analysis proceeds, so does continuous refinement of the
+program.
+
+/Zooming in and out/ (through layers of abstraction and levels of details) is the
+what our art consist of.
+
+A recursive (converging to a good-enough) /spiral-shaped/ process of continuous refinement.
+"High-level" interfaces should be made as /dummy functions /with tests/ at first (TTD).
+
+One-to-one correspondence between concepts of the problem domain and modules (DDD).
+
+ABC -- Always Be Compiled.
+
+The implementation details must be hidden behind abstract interfaces (of proper
+ADTs), so it everything can be changed locally, without breaking the whole.
+
+Iterative versioning and version control is not optional -- keep all the
+previous steps (commit at every small, complete step).
+
+* Just 3 patterns
+Everything has to be an /expression/ which (/eventually/) evaluates to a single /value/
+of a particular /type/ (checked at a compile time).
+
+All kinds of expressions (applications, conditionals, "loops") "yield" single values.
+
+Such values are just /flow/ through individual functions in pure-functional
+pipelines.
+
+/Nesting/ is the only way to compose individual functions.
+* Composition
+Compose a function, defined /in /terms of/ "more primitive" functions (functions
+all the way down).
+
+Compose individual functions into compound ones, which are just ordinary
+functions.
+
+Treated as a "black box abstraction" and used according to its /specification/,
+such functions can be thought of as "primitives" at a particular level of
+abstraction.
+
+This is the universal methodology to /manage complexity/, which reflects the
+actual hierarchical structures behind everything in the Universe.
+* Generalization over hardware abstractions
+The basic machine /model/ of ~C~ and ~C++~ is based on an /abstraction/ of a computer
+hardware architecture, rather than some form of /mathematics/. This explains so
+many annoying kludges, like having ~0~ as ~false~.
+
+~C++~ extends ~C~ with references, classes and generics, while it is
+backward-compatible with ~C~ /ABI/. The ~C~ language, in turn, is a set of slightly
+higher-level generalized abstraction over a machine (hardware architectures),
+which was an true enlightenment at its time.
+
+What ~Fortran~ did to programming mathematics, ~C~ did for programming hardware --
+both introduced a set of convenient higher-level abstractions.
+
+This /model/ includes "hardware types" (which are an actual representation with a
+corresponding set of CPU instructions) - how a machine represents its "core" types -
+ints, floats, and ~pointers~.
+
+~C~ and ~C++~ do /destructive assignments/ (/over-writing/ of memory locations) instead
+of bindings. Just as machine instructions do, It is /copying/ of a value.
+
+Assignments are /not/ bindings to the same value. ~x = y~ is /copying/ (of the value
+if ~y~), not /binding/ (shadowing) of ~x~ (to the value of ~y~), as in math.
+
+~C~ /pointers/ and ~C++~ /references/ are used to explicitly specify any form of /sharing/.
+
+A /variable/ is just a /name/ (symbol) given to a /memory location/. It is not a
+/pure/ symbol-to-value immutable /binding/ -- no mathematical standard conventions
+here. "Variables" are /placeholders/, "functions" are /procedures/, numbers are only
+within a particular range, integers /overflow/, etc.
+
+This is exactly what it means to be a pure-/imperative/, procedural language. OO makes everything even worse.
+
+Good ~C~ and ~C++~ compilers map statements to single machine instructions.
+
+Procedures are implemented using standard ABIs for passing of /values/ of formal
+parameters on the stack. The clever early ~C++~ hack just adds an extra pointer to
+an "object" on the stack when calling /methods/ (which are just ~procs~ with an
+extra argument).
+
+* "Just right" mathematical abstractions
+A value is a /sequence/ of bits interpreted according to a type (using a machine representation).
+
+A "variable" (as in math) /binds/ a value of some type (set of values * set of operations).
+
+In an imperative languages it is some area in RAM that stores a value.
+
+Types, standard functions define a /vocabulary/ of implementation.
+
+A /type/ can be though off a s a Set of values.
+
+The /type/ of a value or an "object" determines /the set of operations applicable to it/ *and* its layout in memory.
+
+Just as in First-order logic values can have /attributes/ or properties (and thus predicates on these), /types/ (like Sets) can be defined by /interfaces/ -- particular sets of /function signatures/ (together with "laws" and invariants stated informally elsewhere).
+
+These interfaces are /subsets/ of possible operations, and implementing them makes an "object" operationally an instance of a type defined by a required /interface/.
+
+* Standard Libraries
+A standard library of any decent language is an idiomatic code to read. It also show how good the language is.
+
+* properties
+to constrain or specialize is to select a /smaller subset/,
+based on some /property/, 'attribute' or 'behavior'.
+
+First Order Logic uses predicates and quantifiers for that.
+
+Symbolic (algebraic) notation
+- symbols as references (names)
+- symbol as "generalizations" of
+  - constants (beginning of the alphabet)
+  - variables or unknowns (end of the alphabet)
+- same symbol -- same value (immutable meaning)
+- shadowing (immutable local bindings)
+
+The common pattern of building an expression tree (an AST) augmented with data at each node emerges again and again and seems to be /universal/ (similar to protein structures, which are sequences, not trees).
+
+Having a data structure (DNA-like) and set of function (enzymes) which act on it /is/ a universal pattern.
+
+Assembling Boeings from text files.
+Google Chrome has more components that a Boeing 787.
+
+At the "source" of any /data stream/ there is always a set of all possible choices
+of elements, or an /alphabet/ defined as a disjoint union - ~A | B | C ...~
+
+A function which consumes elements of such a stream necessarily has the same
+shape as the disjoint union.
+
+The /values/ should be /structured and nested/, parameterized if necessary (to factor
+out the common parts into /generic functions/).
+
+Function signatures are /interfaces/. Functions can be passed around as "arrow
+abstractions" - /closures/ to be called (applied) to get something particular - some
+"dependencies".
+
+There could be more that one /implementation/ of a required /interface/.
+
+Adding /extra parameters/ goes especially well with /partial application/ (the
+consequence of using /curried function). This is the same as "dependency
+injection", which is just passing of a method.
+
+Partial application and some syntactic sugar is how Scala's beautiful testing
+DSLs are implemented. /Currying/ is a big deal.
+
+Parameterized types are to factor out common factors (generality).
+
+Nested, structured and even parameterized /sum-types/ must be used to implement
+/State-Machines/ (nice and easy, using pattern-matching everywhere).
+This is what GADTs are for.
+
+But even a simple classic motorcycle is about interfaces, components and
+repair-ability (ease of disassemble (take apart) and assemble back).
+.
+An assembly line - delegation, sub-contracting, components, modules.
+Specialized teams on a construction site.
+Logistics (supply chain).
+
+"Smart constructors" is about creating a single "factory" of values.
+
+"Smart constructors" are ok only if we do not lose /pattern-marching/. So, only
+informal rules - create a value with Module.create (after that it is immutable)
+and then pattern-match as usual.
+
+/Private constructors/ are cool for "value security" - that a certain values could
+be created only by an un-exported function (in just one place).
+
+Constraints should be validated in only one place.
+
+ADTs not just hide representation, they enforce consistency and invariants. Only module "knows" the "internals".
+
+Nesting is the most fundamental notion, both for data and code. References is the way to /nest without copying/.
+
+References are as fundamental as words of a human languages. One /refer to/ something with an associated word.
+
+In CS references are usually /offsets - distances from an "origin" of 0/ which is what an address is.
+
+References could be viewed as using a /lookup table/ - you provide a ref (whatever it may be) and will get a value.
+
+This is what links /environments - sets of key-value bindings/ and a language in general.
+
+Once components and modules are there the process of assembly line (a pipeline)
+can begin.
+
+This is how software is done at a system level. Just assembly lines on a
+factory.
+
+Write everything down. The visual system is the most powerful. It will prime the
+brain better.
+Write down examples (/expectations/) of what a function does in a "corner cases"
+(especially "empty" or "nothing").
+Write these as /unit-tests/ - particular /assertions/ (statements of fact).
+Then write down as distinct /assertions/ (tests) the /specification/ (equations) which states the "laws" and
+/invariants/ - the /equation reasoning/ at work.
+This is how a non-bullshit TTD meets a poor-man's /executable specs/.
+
+They let us—indeed, force us to—capture our thoughts precisely, and in return command machines of immense power.
+
+if your answer to /the concepts/ question is incorrect, it is likely that you may
+start down an /unproductive pathway/ to a wrong solution.
+
+Always have a Plan. Write down everything.
+
+Create a positive feedback loop to become motivated.
+
+when faced with a problem you are unable to solve, you
+reduce the scope of the problem, by either adding or removing constraints, to produce a problem that you do know how to solve.
+
+making useful progress to build confidence that you will ultimately complete the task.
+
+Start with What You Know (imperfect, partial information).
+By starting with what you know, you build confidence and momentum toward the goal.
+
+Formally specify everything. Sets and logic.
+
+ABC, all tests passed. ~git commit -a~
+
+You should never return values when a function is called with invalid arguments. You should always raise an exception. This rule is called “Let it crash.”
+
+Never return a value when a function is called with an incorrect argument; raise an exception. Assume that the caller will know how to fix the error.
+
+Generating a /stack-trace/ idiom.
+#+BEGIN_SRC erlang
+catch
+error:X ->
+{X, erlang:get_stacktrace()}
+end.
+#+END_SRC
+* Tools
+Use all the tools and automation available.
+Especially static analyzers and linters.
+
+* Local optimum
+A /local optimum/ on each and every /line/.
+
+Simplicity, elegance and good taste is not optional.
+Like a good math or poetry.
+
+Use data-abstraction (ADTs) to produce /highly modular/ programs.
+
+Engineering mantra — Functional. Typed. Immutable.
+
+Data-abstraction, executable specifications, formal methods.
+
+Algebraic data types are structures formed /by composition/ in
+predictable, well-defined ways.
+Moreover, they can be /nested/, allowing you to build up complex data
+structures from /well-understood parts/.
+
+the elegant efficient way it concisely describes precise ideas of great complexity.
+Mathematics says a lot with a little. So must do functional programmers.
+
+what's involved here is perhaps tedious and even difficult, but involves no deep insights
+encapsulate and suppress unnecessary tedious details inside a module.
+
+a context is set of bindings (or mapings)
+which can be viewed as a table, which in turn
+can be viewed as a funtion from symbols to facts,
+from names to mental concepts.
+and from concepts to actual aspects of reality.
+
+Everything has to be evaluated within contexts.
+Except abstract math, which is context free.
+
+A context is some persistent data structure, which
+can be extended with new "facts" keeping old bindings
+intact.
+
+* Envs are contexts
+let extends both environments with a new binding
+for a value and its type.
+a type is a set of all possible values (a partition)
+
+it is like adding a new fact to a contexts.
+
+Extending an environment is to "grow" it with a new binding
+Environmen is a persistent linerar structure (pure functional).
+All the prior bindings are intact.
+
+A lexiacal closure captures the bindings and carries them.
+
+Programming really is about:
+- abstractions, specifications, interfaces, invariants
+- rules, protocols
+- types, modules, interfaces
+
+Specifications formally define "contracts"
+- preconditions (constraints on inputs)
+- postconditions (constraints on outputs)
+- invariants (constraints on representations)
+
+defensive (asserting preconditions, postconditions) helps
+
+abstraction function - formally defined relation between
+an abstraction and its "concrete" representation (implementation)
+
+the diagram commutes (two ways to the same value)
+conc->abs->abs_op = conc->conc_op->abs
+
+rep_ok (endure invariant) function, which can be replaced by id
+
+if translates to 2 explicit rules (saparate from a predicate)
+cond to n explicit rules
+a function with multiple clauses is semantically the same
+pattern matching on clauses is -> rules is the universal form!
+
+Add only a minimum for completeness.
+Only what is required to be complete.
+
+Any algorithm can be expressed as the nesting of only 3 control
+structures:
+- sequence 
+- branching (selection - conditionals)
+- recursion (repetition - loops)
+
+Any program should be expressed as the nesting of only 3 control
+structures (Scheme, SML).
+
+A program
+• Is a static entity
+• Has no time dimension
+A process
+• Is a program in execution
+• Is a dynamic entity
+• Has a time dimension
+• Can be understood only in terms of its time dimension
+
+the notion of an OR is of being on either side of a partition
+A | B is in a language is A or B - a disjoint (non-overlapping) union (of two parts - partitions)
+
+actual lambdas are anonymous, like literals (numbers or strings) they are just bound to symbols, like any other values
+
+Do not use false concepts (abstract ones).
+What is not there cannot be a part of what is.
+
+Nature minimizes "moving parts" - more stable arrangements.
+"less is more" is this principle.
+
+“Focus on intention rather than mechanism”.
+
+Declarative, hiding the implementation behind interfaces inside modules, and segregating imperative inside monads.
+
+Brevity, high-level abstractions, and advanced static typing.
+
+Static types are program documentation that is checked by the compiler for correctness.
+
+the mantra: higher level abstractions on interfaces.
+
+reduce complexity through independent, orthogonal features that can be combined freely.
+
+reduce complexity by making the individual features simple, and we maximize the benefit of the features by permitting their free combination
+
+these are generalizations of fundamental notions
+like combinations of atoms into molecules
+and molecules into complex structures with unique properties
+simple structures have simple properties (valency, etc)
+complex strutures - complex properties. But immutable.
+
+* Interfaces and modules
+Interfaces are "partitions" or "cell membranes".
+They separate and hide implementations.
+Writer and user should work independently
+we should make it easy to separate the concerns of the writer of the generic code and its user, so that they can develop their code independently.
+
+* Sequences
+  A generalization of a Linear Order.
+  This means one dimension - a line abstraction.
+  Associated number in a sequence - a mapping to naturals.
+  In mathematics that would be something Countable.
+
+* Classic languages
+  - Common Lisp, Scheme (generality, uniformity)
+  - Smalltalk (generality, uniformity)
+  - Standard ML (generality, uniformity)
+  - Miranda, Haskell (cool)
+  - Scala 3 (a fusion of Smalltalk and ML)
+  - Common Lisp and Ocaml got an object model as a DSL
+  - Erlang has strictly functional subset.
+
+* Universal Principles
+  - uniformity, generaliry - no special casses (ideally)
+  - everything is an expression (evaluates to value)
+  - referential transparency (expression can be replaced by value)
+  - equational reasoning (write equations, declarative)
+  * everything is an object of some class (Smalltalk)
+  - every operator is a method call on a receiver (Smalltalk)
+  - no operators, only methods
+  - proper algebraic types, especially sum types
+  - uniform pattern-matching on parametrized data-constructors
+  - patterns everywhere (everything is a pattern, not just a var)
+
+* Partitioning by attributes (properties)
+  the most basic types are sets of values. Classes are mental categories
+  is_a and everything else - is_not_a
+  xs.partition(p) equals (xs.filter(p), xs.filter(!p(_))) 
+  evolution can be viewed as a tree, while brances became partitions (separated from other branches at a fork)
+  - partition by a predicate (into a set or a class)
+  - any (some)
+  - all (every)
+  - forall (upside-down A)
+  - exists (flipped E)
+
+* modular style 
+divide the program into a number of smaller modules, each of which has an inside and an outside (like a cell membrane).
+
+Each building block should be simple enough to be understood individually.
+
+An interface is similar to pumps and portals on a membrane.
+Implementation is what is inside (and invisible, independent).
+
+Interface defines messages accepted.
+
+* OO
+Each trait can hold less than an entire concept, a mere single aspect of a concept.
+
+The abstract modifier signifies that the class may have abstract members that do not have an implementation. As a result, you cannot instantiate an abstract class.
+
+A method is abstract if it does not have an implementation (i.e., no equals sign or body).
+Nothing to be substututed for its name (failed equational reasonin).
+
+Declarations may be abstract, but definitions are always concrete.
+
+start with traits when at the early stages of implementation.
+
+Parametrize everything. Parametrizing is initializing
+
+* Ordering
+  access by a name makes actual ordering irrelevalent (immaterial).
+  A config file is a set of a name-value bindings
+  In a List, however, everything is acessed by a number.
+  In an Array - by an offset.
+* Library abstractions
+Not a built-in syntax. They are /library abstractions/ that you can extend and adapt.
+
+Library functions can be parameterized with operations (other functions), which lets you define constructs that are, in effect, your own control structures.
+
+users to grow and adapt the language in the directions they need by defining easy-to-use libraries that feel like native language support.
+
+* Interfaces
+When complexity can’t be avoided; it must instead be managed.
+
+Manage complexity by letting you raise the level of abstraction in the interfaces you design and use.
+
+Implementation for a set of abstract interfaces - traits (or an abstract class) corresponds to the meaning of a concept - a link (reversed association) back to certain aspect of reality, of which a word is a label.
+
+* The right OO
+
+The most straightforward way is to put data and operations (methods, messages) into some form of containers (entities, objects).
+
+The great idea of object-oriented programming is to make these containers /fully general/, so that they can contain operations as well as data, and that /they are themselves values/ that can be stored in other containers, or passed as parameters to operations.
+
+Such containers are called objects. Alan Kay, the inventor of Smalltalk, remarked that the simplest object has the same construction principle as a full computer: it combines data with operations under a formalized interface.
+
+interfaces can have default method implementations
+
+Unlike a class, a trait can add some new functionality to an unspecified superclass. (mixins, do not inherit from a super-class)
+
+This makes traits more “pluggable” than classes. 
+
+* Reading
+Studies have shown that the time a developer spends reading code to writing code is at least a 10:1 ratio
+
+* Basic building blocks
+- values
+- aggregates (of values)
+- operators (on values or aggregates)
+- actions (declarative IO and State)
+- pipelines (function composition)
+- interfaces (abstatract traits, classes)
+- modules (hidding actual implementations)
+- type-classes
+- services (this)
+
+
+Start from a mathematical model of aspect of the world.
+Within that model algorithms and algebras emerge.
+
+Working on the right thing is more important than working quickly
+
+Speed at X doesn't matter because you don't spend much time doing X
+
+translate into storable, retrievable units that could be manipulated with transactional integrity.
+
+Capture all changes to an application state as a sequence of events.
+Streams, logs.
+Event Sourcing ensures that all changes to application state are stored as a sequence of events.
+Event sourcing involves maintaining an immutable sequence of events that multiple applications can subscribe to. Kafka is a high-performance, low-latency, scalable and durable log.
+
+A computation is a set of transformations carried out "mechanically" by means of a finite number of predefined rules.
+
+the mechanical way in which the rules are applied.
+
+we specify using maths and define computations with the help of programs written in a functional programming language.
+Computations can also be studied more abstractly through algorithms.
+
+that encapsulation - the bundling of data, along with the methods that work on the data, into a single unit that restricts access to data internals to just those methods - is a key piece of programming methodology: "the one that makes modularity work."
+
+"I think the distinction between the interface and the implementation is really good to keep in mind, you know… getting the behaviour to be defined separate from the implementation.
+
+"And if you aren't in a language which enforces encapsulation, which is unfortunately most of them, then you have to impose that on yourself." ®
+
+on the boundary of a naive theory and the unknown.
+
+When designing at this boundary, the challenge lies not in constructing the system, but in understanding it.
+
+In the absence of adequate theory, we must develop our own intuition (based on actual experience) to guide our decisions.
+
+The design process is thus one of exploration and discovery.
+
+Understanding the problem well is the first - and probably the most important - step in programming.
+
+walk, step by step, along the path of understanding a problem , understanding the solution space, and understanding how
+to express a particular solution in Haskell.
+
+Along this path use whatever tools are appropriate for analyzing a particular problem domain - mathematical tools.
+
+the most powerful way to gain insight into a system is by moving between levels (layers) of abstraction.
+
+the most important maxim about such systems is that they are never really finished (continuous improvement and evolution).
+
+Therefore, taking the time to write programs that are well-crafted - based on optimal types, easy to understand and to reason about - is a real investment.
+
+Don't be satisfied with your first solution to a problem, and always be prepared to go back and change parts of your program that you later discover do not satisfy the highest quality (not optimal).
+
+Such reworking of programs is the norm, get into the habit of doing so.
+
+How did we end up with something so much clearer? We applied a sequence of transformations to improve the design, almost all of which are applicable in any language. The transformations were partly informed by a notion of “type safety”. Specifically, we aimed to model our domain using types and functions that make illegal states unrepresentable.
+
+A crucial aspect of difficult problem solving is that you’re frequently wrong.
+
+Software architecture probably matters more than anything else.
+
+A shitty implementation of a good abstraction causes no net harm to the code base. A bad abstraction or missing layer causes everything to rot.
+
+Write specifications and examples.
+
+local reasoning: once a function has a spec, we can judge whether the function does what it is supposed to without looking at the rest of the program.
+
+write simple, slow implementations first, then improve bottlenecks as necessary.
+
+abstraction functor
+which is a mapping from the space of concrete values to the abstract space (of mental concepts from the problem domain).
+
+the following three-step procedure:
+(i) consider the problem environment and record our understanding of it by defining structures for the data to be processed
+(ii) write examples of actual structured values
+(iii) form a program structure based on the data structures
+
+the general principle is the same: instead of mixing the general and the specific, define the general and pass the specific as an argument.
+
+use helper functions everywhere (to do the specifics)
+
+immutability makes possible (and simplifies) proofs of correctness
+
+a lazy evaluation (using a thunk) is related to promises
+and memoisation (evaluated once, then value is "cached")
+
+expressing loops as recursion allows precise reasoning using
+mathematical induction
+
+use only sequencing, loops (for as in CL, while or recursion) and branching (case, if, match) - they have nice topology
+
+one-branched if (when) and while are similar, while just adds an arrow back
+
+declarative (defining what, abstracting away how)
+like hardware interfaces
+
+equational reasoning (the substitution model, with envs)
+Lambda calculus is enough, and it is based on
+- abstractions (lambdas)
+- bindings (symbols to values)
+- immutability (like in math)
+- scope (free vs. bound)
+- substitution 
+- nesting
+- beta reduction
+- recursion
+
+Any procedure that is not a pure, deterministic transformation from its arguments to its return value is imperative in nature.
+That includes not only things that mutate your program’s data, but also operations that interact with the world outside of a program. (non-determinism, causality)
+
+I/O is non-deterministic, however functions are pure - same input (data) - same output.
+
+math is search for and a study of patterns (in branches)
+programming is about abstracting them out and implementing
+
+type-tag everything. do not use "naked primitive types"
+
+Design the architecture, name the components, document the details.
+
+consider alternative (and more efficient) implementations
+/once we have a clear interface to program against/.
+
+The bigger the interface, the weaker the abstraction.
+
+grasp the current principles and develop fluency in the methods. this.
+
+the habit of explaining to yourself
+why the definitions are phrased as they are and
+how each line of a proof follows from previous lines.
+
++just do it
+
+Greek geometry, and on algebra that generalised the natural operations of arithmetic.
+
+the development of formal mathematics based on set-theoretic definition and logical proof (ADTs and expressions)
+
+A pattern is essentially a description of the shape of a data, a structure of a value.
+
+some components are symbols to be bound (to pieces of data)
+
+Files are more than just a convenient way to store and manage your code; they also correspond to modules, which act as
+
+boundaries that divide your program into conceptual units.
+(abstraction barriers defined using interfaces)
+
+the Abstraction Principle, which says to avoid requiring something to be stated more than once; instead, factor out the recurring pattern.
+
+similar to type-tagging (or prefixes in RNA)
+so it is like a tagged union (union of tagged values)
+a sum-type defined in terms of a set of data-constructors
+construtors can be parametrized by values of other types
+
+all the recursive functions on lists are similar to doing proofs by induction on the natural numbers
+This similarity is no accident. There is a deep relationship between induction and recursion;
+use pattern matching: you'll then be forced to match against both the empty list and the non-empty list (at least)
+
+* make bugs impossible 
+- type-safety (simple bugs)
+- memory-safety (subtle bugs)
+- the "make the wrong state unrepresentable" meme
+
+* defensive
+- raise exceptions on bad arguments
+
+* social methods
+- more eye-balls (public repo)
+- mandatory code reviews
+
+* formal methods
+- type systems (weak)
+- TLA, etc.
+
+* fail-fast
+- assertions (preconditions)
+- constraints in types
+
+* testing
+- units, interfaces, regressions
+- declarative DSLs (hspec, quickcheck)
+
+* automate everything
+- use all the tools available
+
+understand the principles behind programming
+that transcend the specifics of any particular language
+
+at the right level of abstraction
+(like SML, not Rust, or like Matlab)
+
+DSLs are the proper way of structuring the code
+
+Modules must be small, self-contained, loosely-coupled.
+
+Modules (called structures in ML) are used to encapsulate implementations of interfaces (called signatures in ML)
+
+
+algebraic data types
+
+built-in data types would not have to be built-in, but are actually definable with algebraic data types
+
+<expr1>;
+<expr2>;
+...
+<exprN>
+is equivalent to
+Syntax
+let () = <expr1> in
+let () = <expr2> in
+...
+<exprN>
+
